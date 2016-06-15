@@ -6,20 +6,16 @@
 // hello world
 
 * {
-	font-family : $primary-font;
+		font-family: $primary-font;
 }
 
 .title {
-  font-family : $title-font;
+		font-family: $title-font;
 }
 
 
-.nav {
-	li {
-		a {
-			&:hover {
-				background-color : transparent;
-			}
-		}
+.nav-links {
+		&:hover {
+				background-color: transparent !important;
 	}
 }

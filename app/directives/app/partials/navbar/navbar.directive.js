@@ -8,7 +8,7 @@
 		function nav(){
 			var directive = {
 				restrict: 'E',
-				templateUrl: 'app/views/app/partials/navbar.html',
+				templateUrl: 'app/views/app/partials/navbar/navbar.html',
 				controller: 'NavbarController',
 				controllerAs: 'vm'
 			};
