@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     sassLint = require('gulp-sass-lint'),
     sourcemaps = require('gulp-sourcemaps');
+    uglifycss = require('gulp-uglifycss');
 
 
 
@@ -30,6 +31,7 @@ gulp.task('sass', function() {
   .pipe(sass().on('error', function(){
     gutil.log(gutil.colors.bgBlue.red('ERROR : SCSS COMPILATION FAILED'));
   }))
+  .pipe(uglifycss())
   .pipe(sourcemaps.write('sourcemaps'))
   .pipe(gulp.dest('dist/css'))
 });
