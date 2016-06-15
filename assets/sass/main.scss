@@ -4,15 +4,19 @@
 @import 'settings/_mixins';
 
 
-*{
-	font-family: $primary-font;
+* {
+	font-family : $primary-font;
 }
 
-.nav{
-	li{
-		a{
-			&:hover{
-				background-color:transparent;
+.title {
+  font-family : $title-font;
+}
+
+.nav {
+	li {
+		a {
+			&:hover {
+				background-color : transparent;
 			}
 		}
 	}

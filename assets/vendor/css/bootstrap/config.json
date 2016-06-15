@@ -10,8 +10,8 @@
     "@brand-success": "#89C541",
     "@brand-info": "#00A7F7",
     "@brand-warning": "#E9D460",
-    "@brand-danger": "#EF4836",
-    "@body-bg": "#E9EBEE",
+    "@brand-danger": "#FCFCFC",
+    "@body-bg": "#FCFCFC",
     "@text-color": "@gray-dark",
     "@link-color": "@brand-primary",
     "@link-hover-color": "darken(@link-color, 15%)",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=ef63544dd0f4ccb0161b9dc069f64fa6"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=57c32988fdf042dcbc6e4e1582934cd8"
 }
