@@ -6,6 +6,6 @@
 		.controller('NavbarController' , controller);
 
 	function controller(){
-		var vm = this;
+		// var vm = this;
 	}
 })();
