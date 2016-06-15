@@ -25,7 +25,6 @@ gulp.task('script', function () {
               .pipe(concat('index.js'))
               .pipe(ngAnnotate())
               .pipe(uglify())
-              // minify
               .pipe(sourcemaps.write('sourcemaps'))
               .pipe(gulp.dest('dist/js'))
 });
