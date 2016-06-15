@@ -3,7 +3,8 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     ngAnnotate = require('gulp-ng-annotate'),
     sourcemaps = require('gulp-sourcemaps'),
-    eslint = require('gulp-eslint');
+    eslint = require('gulp-eslint')
+    uglify = require('gulp-uglify');
 
 gulp.task('check:js', function () {
     return gulp.src(['app/app.js', 'app/**/*.js', 'config/*.js'])
@@ -23,6 +24,8 @@ gulp.task('script', function () {
               .pipe(sourcemaps.init())
               .pipe(concat('index.js'))
               .pipe(ngAnnotate())
+              .pipe(uglify())
+              // minify
               .pipe(sourcemaps.write('sourcemaps'))
               .pipe(gulp.dest('dist/js'))
 });

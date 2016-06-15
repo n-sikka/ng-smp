@@ -2,3 +2,18 @@
 @import 'settings/_variables';
 @import 'settings/_settings';
 @import 'settings/_mixins';
+
+
+*{
+	font-family: $primary-font;
+}
+
+.nav{
+	li{
+		a{
+			&:hover{
+				background-color:transparent;
+			}
+		}
+	}
+}
