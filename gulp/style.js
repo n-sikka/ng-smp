@@ -15,17 +15,15 @@ gulp.task('compile-change:scss', function() {
 // to check sass for any wrong coding conventions
 gulp.task('check:sass', function(){
   return gulp.src(['assets/sass/**/*.scss'])
-  .pipe(sassLint(
-    {
-      'endless' : true
-    }
-  ))
-  .pipe(sassLint.format())
+  // .pipe(sassLint())
+  // .pipe(sassLint.format())
 })
 
 // compile sass for production
 gulp.task('sass', function() {
   return gulp.src(['assets/sass/**/*.scss'])
+  .pipe(sassLint())
+  .pipe(sassLint.format())
   .pipe(sourcemaps.init())
   .pipe(concat('index.scss'))
   .pipe(sass().on('error', function(){
