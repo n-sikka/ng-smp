@@ -7,8 +7,10 @@
 		font-family: $title-font;
 }
 
-.nav-links{
-	&:hover {
-		background-color : transparent;
+.nav{
+	li a{
+			&:hover {
+						background-color : transparent;
+			}
 	}
 }
