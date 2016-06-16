@@ -20,10 +20,11 @@
 		.search-button {
         border-radius: 0.75rem;
         height: 5rem;
-        border-left: 0;
         border: none;
+        //border-left: 1px solid $theme-grey;
         background-color: #fff;
 				box-shadow: none;
+        box-shadow: -5px 0 5px -6px $theme-grey;
 
         &:hover{
           background-color: #fff;
@@ -44,9 +45,9 @@
 .typeahead-container {
     margin-top: 10%;
 		.dropdown-menu {
-				border-top-left-radius: 0;
-				border-top-right-radius: 0;
-				margin-top: 0;
+				// border-top-left-radius: 0;
+				// border-top-right-radius: 0;
+				margin-top: 1px;
 				width: 100%;
 			}
 
