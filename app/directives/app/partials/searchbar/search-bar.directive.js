@@ -8,7 +8,7 @@
 		function search(){
 			var directive = {
 				restrict: 'E',
-				templateUrl: 'app/views/app/partials/searchBar/searchBar.html',
+				templateUrl: 'app/views/app/partials/searchbar/search-bar.html',
 				controller: 'SearchBarController',
 				controllerAs: 'vm'
 			};
