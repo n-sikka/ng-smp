@@ -1,0 +1,14 @@
+<!-- <i ng-class="match.model.data"></i> -->
+<!-- <span  ng-bind-html-unsafe="match.model.datale | typeaheadHighlight:query"></span> -->
+
+<!-- <div ng-repeat = "item in vm.data_response">
+	{{item}}
+</div> -->
+
+
+<div class="typeahead-group-header" ng-if="match.model.firstInGroup"><b>{{match.model.group}}</b></div>
+      <a>
+        <span ng-bind-html="match.label | typeaheadHighlight:query">
+        	{{match.label}}
+        </span>
+      </a>
