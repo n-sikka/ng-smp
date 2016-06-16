@@ -9,20 +9,39 @@ var gulp = require('gulp'),
 
 
 gulp.task('compile-change:scss', function() {
-  gulp.watch('assets/sass/**/*.scss', ['sass:dev']);
+  gulp.watch('assets/sass/**/*.scss', ['sass:dev', 'check:sass']);
 });
 
 // to check sass for any wrong coding conventions
 gulp.task('check:sass', function(){
   return gulp.src(['assets/sass/**/*.scss'])
-  // .pipe(sassLint())
-  // .pipe(sassLint.format())
+  .pipe(sassLint(
+    {
+      rules: {
+        "single-line-per-selector" : 0,
+        "indentation": 0,
+        "clean-import-paths" : 0,
+        "leading-zero": 0,
+        "no-color-literals": 0
+      }
+    }
+  ))
+  .pipe(sassLint.format())
 })
 
 // compile sass for production
 gulp.task('sass', function() {
   return gulp.src(['assets/sass/**/*.scss'])
-  .pipe(sassLint())
+  .pipe(sassLint(
+    {
+      rules: {
+        "single-line-per-selector" : 0,
+        "indentation": 0,
+        "clean-import-paths" : 0,
+        "leading-zero": 0
+      }
+    }
+  ))
   .pipe(sassLint.format())
   .pipe(sourcemaps.init())
   .pipe(concat('index.scss'))

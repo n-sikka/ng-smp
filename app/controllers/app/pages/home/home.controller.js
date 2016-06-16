@@ -5,7 +5,7 @@
   .module('symptum')
   .controller('HomeController' , controller);
 
-  function controller(API, $log){
+  function controller(){
       // var vm = this;
 
   }
