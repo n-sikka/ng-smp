@@ -1,13 +1,14 @@
-input:focus,
-textarea:focus,
-keygen:focus,
-select:focus {
-    outline: none;
+* {
+  font-family: $primary-font;
 }
 
-
-* {
-		font-family: $primary-font;
+input,
+textarea,
+keygen,
+select {
+  &:focus {
+    outline: 0;
+  }
 }
 
 html, body, div, span, applet, object, iframe,
@@ -23,9 +24,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  border: 0;
 	margin: 0;
 	padding: 0;
-	border: 0;
 	vertical-align: baseline;
 }
 
@@ -33,11 +34,10 @@ ol, ul {
 	list-style: none;
 }
 
-h1, h2, h3 {
-  font-family: $title-font;
-}
-
-
 html {
   overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: $title-font;
 }
