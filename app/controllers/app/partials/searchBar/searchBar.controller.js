@@ -1,51 +1,9 @@
-// (function() {
-// 	'use strict';
-
-// 	angular
-// 		.module('symptum')
-// 		.controller('SearchBarController' , controller);
-
-// 	function controller(){
-// 		var vm = this;
-// 		var selected;
-// 		vm.data = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 
-// 		'California', 'Colorado', 'Connecticut', 'Delaware', 
-// 		'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 
-// 		'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 
-// 		'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 
-// 		'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico',
-// 		'New York', 'North Dakota', 'North Carolina', 'Ohio', 'Oklahoma', 'Oregon', 
-// 		'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee',
-// 		'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 
-// 		'Wisconsin', 'Wyoming'];
-
-// 		vm.data_response = function(value) {
-// 			if (arguments.length){
-// 				selected = value;
-// 			}
-// 			else{
-// 				return selected;
-// 			}
-// 		}
-
-// 		vm.data_response_options = {
-// 			debounce: {
-// 				default: 500,
-// 				blur: 250
-// 			},
-// 			getterSetter: true
-// 		}
-// 	}
-// })();
-
-
-
 angular
 	.module('symptum')
-	.controller('SearchBarController', function ($scope, filterFilter) {
+	.controller('SearchBarController', function (filterFilter) {
 
 	var vm = this;
-  $scope.selectedUser = '';
+  vm.selectedUser = '';
   
   var users = [{
       name: 'Some user1',
@@ -70,55 +28,55 @@ angular
 
 
 
-  var doctor = [
-  	{
-  		"id" : 0,
-  		"name" : "Doctor 1"
-  	},
-  	{
-  		"id" : 1,
-  		"name" : "Doctor 2"
-  	},
-  	{
-  		"id" : 2,
-  		"name" : "Doctor 3"
-  	}
-  ];
+  // var doctor = [
+  // 	{
+  // 		"id" : 0,
+  // 		"name" : "Doctor 1"
+  // 	},
+  // 	{
+  // 		"id" : 1,
+  // 		"name" : "Doctor 2"
+  // 	},
+  // 	{
+  // 		"id" : 2,
+  // 		"name" : "Doctor 3"
+  // 	}
+  // ];
 
-  var speciality = [
-  	{
-  		"id" : 0,
-  		"name" : "Speciality 1"
-  	},
-  	{
-  		"id" : 1,
-  		"name" : "Speciality 2"
-  	},
-  	{
-  		"id" : 2,
-  		"name" : "Speciality 3"
-  	}
-  ];
+  // var speciality = [
+  // 	{
+  // 		"id" : 0,
+  // 		"name" : "Speciality 1"
+  // 	},
+  // 	{
+  // 		"id" : 1,
+  // 		"name" : "Speciality 2"
+  // 	},
+  // 	{
+  // 		"id" : 2,
+  // 		"name" : "Speciality 3"
+  // 	}
+  // ];
 
-  var hospital = [
-  	{
-  		"id" : 0,
-  		"name" : "Hospital 1"
-  	},
-  	{
-  		"id" : 1,
-  		"name" : "Hospital 2"
-  	},
-  	{
-  		"id" : 2,
-  		"name" : "Hospital 3"
-  	}
-  ];
+  // var hospital = [
+  // 	{
+  // 		"id" : 0,
+  // 		"name" : "Hospital 1"
+  // 	},
+  // 	{
+  // 		"id" : 1,
+  // 		"name" : "Hospital 2"
+  // 	},
+  // 	{
+  // 		"id" : 2,
+  // 		"name" : "Hospital 3"
+  // 	}
+  // ];
 
 
   
   vm.getUsers = function (search) {
-    var filtered = filterFilter(users, search);
+   var filtered = filterFilter(angular.copy(users), search);
     
     var results = _(filtered)
       .groupBy('group')
