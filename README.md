@@ -1,7 +1,5 @@
 # Symptum Web-App
-enterprise seed for an enterprise level angular app.
-
-An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
+Main Application for Symptum.
 
 ## Quick Start
 
