@@ -21,9 +21,13 @@
       .state('/home', {
         url: '/home',
         parent: 'base',
-        templateUrl: _dirPath + 'pages/home/home.html',
-        controller:'HomeController',
-        controllerAs:'vm'
+        views: {
+          "content": {
+            templateUrl: _dirPath + 'pages/home/home.html',
+            controller:'HomeController',
+            controllerAs:'vm'
+          }
+        }
       });
 
   }
