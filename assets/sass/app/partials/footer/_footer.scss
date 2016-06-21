@@ -1,9 +1,12 @@
 .footer{
 	background-color: #484848;
 	color: #fff;
-
-	.row{
-		padding-left: 100px;
+	border-radius: 0;
+	position: static;
+	margin-top: 15rem;
+	
+	.container{
+		// padding-left: 100px;
 
 		.company{
 			font-size: 25px;
