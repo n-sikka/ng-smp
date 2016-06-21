@@ -1,0 +1,31 @@
+.footer{
+	background-color: #484848;
+	color: #fff;
+
+	.row{
+		padding-left: 100px;
+
+		.company{
+			font-size: 25px;
+		}
+		.social-icons{
+			color: $secondary-color;
+			font-size: 25px;
+			padding: 20px 35px 20px 0;
+		}
+		.fields{
+			color: $theme-grey;
+			font-size: 10px;
+		}
+		.fields-text{
+			font-size: 17px;
+		}
+		.social-class,.search-class,.misc-class{
+			padding: 30px;
+		}
+		.search-class-item,.misc-class-item{
+			color: #fff;
+			font-size: 17px;
+		}
+	}
+}
