@@ -21,12 +21,18 @@
 			return directive;
 
 			function linkFunction(scope) {
+				var typeArray = [
+					'hospital',
+					'doctor',
+					's'
+				];
+
 				$rootScope.$on('searched', function(){
 					var response = SearchService.get();
 
 					if(response){
 						scope.types = ['hospital', 'doctor', 's'];
-						scope.results = getGroups(response, ['hospital', 'doctor', 's']);
+						scope.results = getGroups(response, typeArray);
 					}else{
 						scope.types = null;
 						scope.results = null;
