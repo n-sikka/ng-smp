@@ -1,9 +1,16 @@
-<div class="typeahead-group-header" ng-if="match.model.firstInGroup">
-	<b>{{match.model.group}}</b>
-</div>
-<a>
-	<span ng-bind-html="match.label" class="typeahead-results">
-		{{match.label}}
-	</span>
-</a>
+<div class="search-typeahead"  ng-repeat="type in types" ng-if="results[type].length != 0">
 
+	<ul>
+
+		<span>
+			<li><h3>{{type}} ( {{results[type].length}} )</h3></li>
+			<li ng-repeat="model in results[type] | limitTo: limit" >
+				<a href="">
+					{{model._source.name}}
+				</a>
+			</li>
+		</span>
+
+	</ul>
+
+</div>

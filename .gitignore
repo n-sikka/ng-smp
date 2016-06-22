@@ -11,3 +11,4 @@ assets/js
 assets/css
 dist/
 index.html
+*.orig
