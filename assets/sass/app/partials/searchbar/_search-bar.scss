@@ -1,8 +1,28 @@
-.search-typeahead {
-  background-color: #fff;
-  padding: 10px;
-  display: block;
-  border: 1px solid #e2e2e2;
-  border-radius: 2px;
-  z-index: 500;
+
+.search-bar {
+	.search-bar-input {
+		input {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			border: 1px solid #e2e2e2;
+			border-radius: 2px;
+			height: 30px;
+			padding-left: 3px;
+			padding-right: 3px;			
+		}
+	}
+	.search-typeahead-container {
+	  background-color: #fff;
+	  display: block;
+	  z-index: 500;
+	  position: absolute;
+	  top: 30px;
+	  left: 0;
+	  width: 100%;
+	  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	  
+	}
+	
 }
