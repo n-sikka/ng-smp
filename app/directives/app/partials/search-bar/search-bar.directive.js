@@ -21,6 +21,27 @@
 			return directive;
 
 
+			function getGroups(array, types){
+				
+				var data = {};
+
+				types.forEach(function(type) {
+					data[type] = [];
+				}) 
+
+				array.forEach(function(obj, index) {
+					types.forEach(function(type){
+						if (obj._type == type) {
+							data[type].push(obj)
+						}
+					})
+				})
+
+				return data;
+
+			};
+
+
 			function linkFunction(scope, elem, attr) {
 				$rootScope.$on('searched', function(){
 					var response = SearchService.get();
@@ -29,12 +50,13 @@
 					if(response){
 						for(var i=0; i<response.length; i++) {
 							result[i]=response[i]._source.name;
+							scope.results = getGroups(response, ['hospital', 'doctor']);
 						}
 					}else{
 						return;
 					}
 
-					$log.info(result);
+					$log.info(getGroups(response, ['hospital', 'doctor']));
 
 				});
 			}

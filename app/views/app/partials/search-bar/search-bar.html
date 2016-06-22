@@ -1,8 +1,13 @@
-<div class="container">
-  <input type="text" ng-keyup="vm.set(query)" ng-model="query"/>
+<div class="search-bar">
+  <input class="form-control" type="text" ng-keyup="vm.set(query)" ng-model="query" placeholder="search" />
   <div class="search-typeahead">
-    <!-- <div class="search-results" ng-repeat="">
-
-    </div> -->
+    <ul class="search-results">
+    	<li><h3>Hospitals</h3></li>	
+    	<li ng-repeat="hospital in results.hospital | limitTo: limitBy" >
+    		<a href="">
+    			{{hospital._source.name}}
+    		</a> {{hospital._type}}
+    	</li>
+    </ul>
   </div>
 </div>
