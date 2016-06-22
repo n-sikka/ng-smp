@@ -35,7 +35,7 @@
           $log.error(response.statusText);
         })
       }else if(request === ''){
-        service.set(null);
+        service.set(request);
       }
 
     }
@@ -43,5 +43,5 @@
     return service;
   }
 
-    
+
 })();
