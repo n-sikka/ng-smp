@@ -1,7 +1,8 @@
 <div class="search-bar">
-
-  <input class="form-control" type="text" ng-keyup="vm.set(query)" ng-model="query" placeholder="search" />
-
-  <search-typeahead query="results" groups="types" limit="limitBy"></search-typeahead>
-
+	<div class="search-bar-input">
+	  <input type="text" ng-keyup="vm.set(query)" ng-model="query" placeholder="search" />
+	</div>
+  <div class="search-typeahead-container">
+  	<search-typeahead query="results" groups="types" limit="limitBy"></search-typeahead>
+  </div>
 </div>
