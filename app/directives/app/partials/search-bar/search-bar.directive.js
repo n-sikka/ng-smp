@@ -24,14 +24,15 @@
 				var typeArray = [
 					'hospital',
 					'doctor',
-					's'
+					's',
+					'procedure'
 				];
 
 				$rootScope.$on('searched', function(){
 					var response = SearchService.get();
 
 					if(response){
-						scope.types = ['hospital', 'doctor', 's'];
+						scope.types = typeArray;
 						scope.results = getGroups(response, typeArray);
 					}else{
 						scope.types = null;
