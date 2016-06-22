@@ -3,11 +3,11 @@ angular
 	.controller('SearchBarController', controller);
 
 
-function controller(filterFilter) {
+function controller(SearchService) {
 
   var vm = this;
 
-  vm.get = function(query){
-    console.log(query);
+  vm.set = function(query){
+		SearchService.search(query);
   }
 }

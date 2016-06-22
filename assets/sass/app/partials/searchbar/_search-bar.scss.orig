@@ -1,0 +1,147 @@
+// .search-form {
+//   border: 1px solid;
+//   border-color: $theme-grey;
+//   border-radius: 0.75rem;
+//   margin: 0 auto;
+//   width: 50%;
+<<<<<<< HEAD
+
+=======
+//
+>>>>>>> 73f3a1c910ee0750ee074c86c47859800dbed01d
+//     .search-field {
+//       border: 0;
+//       border-radius: 0.75rem;
+//       border-right: 0;
+//       box-shadow: none;
+//       font-family: $title-font;
+//       font-size: 21px;
+//       height: 5rem;
+//       padding: 6px 12px;
+//       width: 100%;
+//     }
+<<<<<<< HEAD
+
+//     .no-result {
+//       border-top: 1px solid $theme-grey;
+//       font-size: 21px;
+
+=======
+//
+//     .no-result {
+//       border-top: 1px solid $theme-grey;
+//       font-size: 21px;
+//
+>>>>>>> 73f3a1c910ee0750ee074c86c47859800dbed01d
+//       .fa-times {
+//         font-size: 21px;
+//       }
+//     }
+<<<<<<< HEAD
+
+//     .search-button {
+
+
+=======
+//
+//     .search-button {
+//
+//
+>>>>>>> 73f3a1c910ee0750ee074c86c47859800dbed01d
+//         background-color: #fff;
+//         border: 0;
+//         border-left: 0;
+//         border-radius: 0.75rem;
+//         box-shadow: -5px 0 5px -6px $theme-grey;
+//         height: 5rem;
+<<<<<<< HEAD
+
+=======
+//
+>>>>>>> 73f3a1c910ee0750ee074c86c47859800dbed01d
+//         &:hover {
+//           background-color: #fff;
+//           border-color: #ccc;
+//         }
+<<<<<<< HEAD
+
+//         .fa {
+//           color: $theme-grey;
+//           font-size: 21px;
+
+//         }
+
+=======
+//
+//         .fa {
+//           color: $theme-grey;
+//           font-size: 21px;
+//
+//         }
+//
+>>>>>>> 73f3a1c910ee0750ee074c86c47859800dbed01d
+//         &:hover .fa {
+//             color: $primary-color;
+//         }
+// 			}
+// }
+<<<<<<< HEAD
+
+// .typeahead-container {
+//     margin-top: 10%;
+
+=======
+//
+// .typeahead-container {
+//     margin-top: 10%;
+//
+>>>>>>> 73f3a1c910ee0750ee074c86c47859800dbed01d
+//     .dropdown-menu {
+// 				// border-top-left-radius: 0;
+// 				// border-top-right-radius: 0;
+// 				margin-top: 1px;
+// 				width: 100%;
+// 			}
+<<<<<<< HEAD
+
+// }
+
+=======
+//
+// }
+//
+>>>>>>> 73f3a1c910ee0750ee074c86c47859800dbed01d
+// .typeahead-group-header {
+//   color: $primary-color;
+//   font-size: 20px;
+//   margin: 2% 2% 0 1.5%;
+// }
+<<<<<<< HEAD
+
+=======
+//
+>>>>>>> 73f3a1c910ee0750ee074c86c47859800dbed01d
+// .typeahead-results {
+//   font-size: 16px;
+//   height: 50px;
+//   margin: 1.5% 0 0 1.5%;
+// }
+
+<<<<<<< HEAD
+  .search-typeahead {
+    padding: 10px;
+    display: block;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px;
+    z-index: 500;
+  }
+=======
+
+
+
+.search-typeahead{
+  width:100%;
+  position: absolute;
+  background: #fff;
+}
+>>>>>>> 73f3a1c910ee0750ee074c86c47859800dbed01d

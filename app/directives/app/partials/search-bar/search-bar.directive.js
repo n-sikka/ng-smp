@@ -3,9 +3,9 @@
 
 	angular
 		.module('symptum')
-		.directive('searchBar',search);
+		.directive('searchBar',directive);
 
-		function search(){
+		function directive($rootScope, SearchService, $log){
 			var directive = {
 				restrict: 'EA',
 				templateUrl: 'app/views/app/partials/search-bar/search-bar.html',
@@ -17,12 +17,26 @@
 				},
 				link: linkFunction,
 
-			};
+			}
 			return directive;
 
 
 			function linkFunction(scope, elem, attr) {
-				console.log(scope);
+				$rootScope.$on('searched', function(){
+					var response = SearchService.get();
+					var result= [];
+
+					if(response){
+						for(var i=0; i<response.length; i++) {
+							result[i]=response[i]._source.name;
+						}
+					}else{
+						return;
+					}
+
+					$log.info(result);
+
+				});
 			}
 
 		}
