@@ -31,7 +31,7 @@ function service($http, $log, $rootScope) {
       function error(response){
         $log.error(response.statusText);
       })
-    }else{
+    }else if(request === ''){
       service.set(null);
     }
 
