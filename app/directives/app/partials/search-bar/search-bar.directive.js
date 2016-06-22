@@ -38,7 +38,8 @@
 
 
 			/*
-				params : array of objects, types is object keys
+				This function generates an empty array for each type provided.
+				and takes the data we are getting in response from backend and divides it into different arrays based on types
 			*/
 			function getGroups(array, types){
 
@@ -57,10 +58,9 @@
 				})
 
 				return data;
-
 			};
 
 		}
 
-		
+
 })();
