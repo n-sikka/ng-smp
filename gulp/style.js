@@ -22,6 +22,7 @@ gulp.task('check:sass', function(){
         "indentation": 0,
         "clean-import-paths" : 0,
         "leading-zero": 0,
+        "no-trailing-zero": 0,
         "no-color-literals": 0
       }
     }
