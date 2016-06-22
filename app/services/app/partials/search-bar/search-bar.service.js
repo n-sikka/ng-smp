@@ -23,22 +23,25 @@
       return data;
     };
 
-  service.search = function(request){
-    if(request){
-      $http({
-        method: 'GET',
-        url: route + 'name:' + request + routeConfig
-      }).then(function success(response){
-        service.set(response.data.hits.hits);
-      },
-      function error(response){
-        $log.error(response.statusText);
-      })
-    }else if(request === ''){
-      service.set(null);
+    service.search = function(request){
+      if(request){
+        $http({
+          method: 'GET',
+          url: route + 'name:' + request + routeConfig
+        }).then(function success(response){
+          service.set(response.data.hits.hits);
+        },
+        function error(response){
+          $log.error(response.statusText);
+        })
+      }else if(request === ''){
+        service.set(null);
+      }
+
     }
 
+    return service;
   }
 
-  return service;
-}
+    
+})();
