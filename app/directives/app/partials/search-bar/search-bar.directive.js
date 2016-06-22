@@ -20,7 +20,26 @@
 			}
 			return directive;
 
+			function linkFunction(scope, elem, attr) {
+				$rootScope.$on('searched', function(){
+					var response = SearchService.get();
 
+					if(response){
+						scope.types = ['hospital', 'doctor', 's'];
+						scope.results = getGroups(response, ['hospital', 'doctor', 's']);
+					}else{
+						scope.types = null;
+						scope.results = null;
+					}
+
+
+				});
+			}
+
+
+			/*
+				params : array of objects, types is object keys
+			*/
 			function getGroups(array, types){
 
 				var data = {};
@@ -40,26 +59,6 @@
 				return data;
 
 			};
-
-
-			function linkFunction(scope, elem, attr) {
-				$rootScope.$on('searched', function(){
-					var response = SearchService.get();
-					var result= [];
-
-					if(response){
-						for(var i=0; i<response.length; i++) {
-							result[i]=response[i]._source.name;
-							scope.results = getGroups(response, ['hospital', 'doctor']);
-						}
-					}else{
-						return;
-					}
-
-					$log.info(getGroups(response, ['hospital', 'doctor']));
-
-				});
-			}
 
 		}
 

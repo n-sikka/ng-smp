@@ -4,8 +4,7 @@
   angular
     .module('symptum', [
         'ui.router',
-        'ui.bootstrap',
-        'ngSanitize'
+        'ui.bootstrap'
     ]);
 
 })();

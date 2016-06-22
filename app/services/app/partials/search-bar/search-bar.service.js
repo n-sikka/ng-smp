@@ -34,7 +34,7 @@
         function error(response){
           $log.error(response.statusText);
         })
-      }else{
+      }else if(request === ''){
         service.set(null);
       }
 
@@ -43,5 +43,5 @@
     return service;
   }
 
-
+    
 })();
