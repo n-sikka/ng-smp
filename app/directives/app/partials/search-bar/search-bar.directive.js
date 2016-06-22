@@ -41,12 +41,12 @@
 				params : array of objects, types is object keys
 			*/
 			function getGroups(array, types){
-				
+
 				var data = {};
 
 				types.forEach(function(type) {
 					data[type] = [];
-				}) 
+				})
 
 				array.forEach(function(obj, index) {
 					types.forEach(function(type){
@@ -61,4 +61,6 @@
 			};
 
 		}
+
+		
 })();

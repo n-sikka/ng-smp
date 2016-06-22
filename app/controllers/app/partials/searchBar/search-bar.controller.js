@@ -1,13 +1,18 @@
-angular
+(function(){
+	'use strict';
+
+	angular
 	.module('symptum')
 	.controller('SearchBarController', controller);
 
 
-function controller(SearchService) {
+	function controller(SearchService) {
 
-  var vm = this;
+		var vm = this;
 
-  vm.set = function(query){
-		SearchService.search(query);
-  }
-}
+		vm.set = function(query){
+			SearchService.search(query);
+		}
+	}
+
+})();
