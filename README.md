@@ -1,14 +1,13 @@
-# angular-boilerplate
-enterprise seed for an enterprise level angular app.
+# SYMPTUM FRONT-END
+  Enterprise application of Symptum.com.
+  This contains the front end of the main web application
 
-An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
-
-## Quick Start
+# SETUP
 
 Install Node.js and then:
 
-- git clone git@github.com:n-sikka/angular-boilerplate.git
-- cd angular-boilerplate
+- git clone git@bitbucket.org:symptum/symptum-app.git
+- cd symptum-app
 - sudo npm -g install gulp bower
 - npm install
 - bower install
@@ -16,7 +15,11 @@ Install Node.js and then:
 
 App will be live on localhost:3000
 
-# Tools used
+# TECHNOLOGIES USED
+
+- AngularJS 1.5.7
+- HTML/CSS
+- Bootstrap 3.x
 - Gulp
 - NPM
 - Bower
