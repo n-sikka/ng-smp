@@ -12,7 +12,8 @@
       
       return $http({
         method: 'GET',
-        url: 'http://api.symptum.com/api/v1/specialities' ,
+        cache: true,
+        url: 'http://api.symptum.com/api/v1/specialities'
       }).then(function success(response){
         
         return response;
