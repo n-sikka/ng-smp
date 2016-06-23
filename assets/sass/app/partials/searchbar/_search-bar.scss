@@ -2,27 +2,27 @@
 .search-bar {
 	.search-bar-input {
 		input {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
 			border: 1px solid #e2e2e2;
 			border-radius: 2px;
 			height: 30px;
+			left: 0;
 			padding-left: 3px;
-			padding-right: 3px;			
+			padding-right: 3px;
+			position: absolute;
+			top: 0;
+			width: 100%;
 		}
 	}
+
 	.search-typeahead-container {
 	  background-color: #fff;
+		box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 	  display: block;
-	  z-index: 500;
-	  position: absolute;
-	  top: 30px;
-	  left: 0;
+		left: 0;
+		position: absolute;
+		top: 30px;
 	  width: 100%;
-	  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-	  
+		z-index: 500;
 	}
-	
+
 }
