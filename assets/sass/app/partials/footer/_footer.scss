@@ -1,17 +1,17 @@
-.footer{
+.footer {
 	background-color: #484848;
-	color: #fff;
 	border-radius: 0;
-	position: static;
+	color: #fff;
 	margin-top: 128px;
-	.footer-container{
-		padding-top: 48px;
+	position: static;
+
+	.footer-container {
 		padding-bottom: 64px-36px;
-		.footer-details {
-			
+		padding-top: 48px;
+
 			.footer-padding-details {
 				padding-bottom: 36px;
-				
+
 				i {
 					color: $secondary-color;
 					font-size: 24px;
@@ -29,26 +29,20 @@
 				}
 			}
 
-
-		}
-
-		.footer-links {
-
-			.footer-padding-links{
+			.footer-padding-links {
 				padding-bottom: 24px;
+
 				a {
 					color: #fff;
 					font-size: 17px;
 				}
 			}
-
-
-		}
 
 		.footer-sitemap {
 
-			.footer-padding-links{
+			.footer-padding-links {
 				padding-bottom: 24px;
+
 				a {
 					color: #fff;
 					font-size: 17px;
@@ -56,6 +50,6 @@
 			}
 
 		}
-		
+
 	}
 }
