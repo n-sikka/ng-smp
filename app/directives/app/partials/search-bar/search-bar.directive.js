@@ -47,7 +47,7 @@
 				and takes the data we are getting in response from backend and divides it into different arrays based on types
 			*/
 			function getGroups(array, types){
-				console.log(array);
+
 				var data = {};
 				data.counts = {};
 
@@ -71,8 +71,6 @@
 						}
 					})
 				})
-
-				console.log(data);
 
 				return data;
 			}

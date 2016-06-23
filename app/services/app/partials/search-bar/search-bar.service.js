@@ -46,7 +46,6 @@
 
         $http({
           method: 'POST',
-          //url: route + '?q=name:' + request + routeConfig
           url: route ,
           data: data
         }).then(function success(response){
@@ -59,7 +58,8 @@
       }else if(request === ''){
         
         var rand = '132123'
-        var data = {
+        
+        var fakeQuery = {
           "aggs" : {
               "count_type" : {
                   "terms" : { "field" : "_type" }
@@ -77,9 +77,8 @@
 
         $http({
           method: 'POST',
-          //url: route + '?q=name:' + request + routeConfig
           url: route ,
-          data: data
+          data: fakeQuery
         }).then(function success(response){
           service.set(response.data);
         },
