@@ -1,6 +1,20 @@
 (function(){
 	'use strict';
 
+	/*
+		This directive takes in 2 parameters
+
+		group and limit when used
+
+		<search-bar group="<grouping key/headings>"  limit="<data item limits in each group>" ></search-bar>
+
+		it uses SearchService to populate and prettyfy the data.
+
+		we will have to hardcode the typeArray based on the group keys we want to group according to
+		as we need to map the group headings we want to make and the group headings we will get in response on search
+	*/
+
+
 	angular
 		.module('symptum')
 		.directive('searchBar',directive);
@@ -28,12 +42,17 @@
 					'procedure'
 				];
 
+
+				/*
+					The event fired from the SearchService when data is updated from external call
+					is caught here using $on and then it updates the view in typeahead
+				*/
 				$rootScope.$on('searched', function(){
 					var response = SearchService.get();
 
 					if(response){
 						scope.types = typeArray;
-						scope.results = getGroups(response, typeArray);
+						scope.results = SearchService.getGroups(response, typeArray, '_type');
 					}else{
 						scope.types = null;
 						scope.results = null;
@@ -41,39 +60,6 @@
 				});
 			}
 
-
-			/*
-				This function generates an empty array for each type provided.
-				and takes the data we are getting in response from backend and divides it into different arrays based on types
-			*/
-			function getGroups(array, types){
-
-				var data = {};
-				data.counts = {};
-
-				types.forEach(function(type) {
-					data[type] = [];
-					data.counts[type] = 0;
-				})
-
-				array.hits.hits.forEach(function(obj) {
-					types.forEach(function(type){
-						if (obj._type == type) {
-							data[type].push(obj)
-						}
-					})
-				})
-
-				array.aggregations.count_type.buckets.forEach(function(obj){
-					types.forEach(function(type){
-						if (obj.key == type) {
-							data.counts[type] = obj.doc_count;
-						}
-					})
-				})
-
-				return data;
-			}
 		}
 
 
