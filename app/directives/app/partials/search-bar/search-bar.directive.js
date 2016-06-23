@@ -49,15 +49,25 @@
 			function getGroups(array, types){
 
 				var data = {};
+				data.counts = {};
 
 				types.forEach(function(type) {
 					data[type] = [];
+					data.counts[type] = 0;
 				})
 
-				array.forEach(function(obj) {
+				array.hits.hits.forEach(function(obj) {
 					types.forEach(function(type){
 						if (obj._type == type) {
 							data[type].push(obj)
+						}
+					})
+				})
+
+				array.aggregations.count_type.buckets.forEach(function(obj){
+					types.forEach(function(type){
+						if (obj.key == type) {
+							data.counts[type] = obj.doc_count;
 						}
 					})
 				})
