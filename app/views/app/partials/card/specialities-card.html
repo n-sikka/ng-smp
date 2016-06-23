@@ -1,0 +1,16 @@
+<div>
+	<div ng-repeat="speciality in vm.specialities | limitTo: 8"  class="col-sm-12 col-md-4 text-center">
+
+		
+		<b>{{speciality.name}}</b> <br/>
+		<small>{{speciality.procedure.length}} Procedures</small> <br/>
+		<i class="fa fa-home fa-3x"></i>
+	</div>
+	<div class="col-sm-12 col-md-4 text-center">
+
+		
+		<b>View All </b> <br/>
+		<small class="text-capitalize">{{specialities.length}} specialities</small> <br/>
+		<i class="fa fa-bars fa-3x"></i>
+	</div>
+</div>
