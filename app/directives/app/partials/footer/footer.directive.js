@@ -3,7 +3,7 @@
 
 	angular
 		.module('symptum')
-		.directive('footer', footer);
+		.directive('siteFooter', footer);
 
 		function footer(){
 			var directive = {
