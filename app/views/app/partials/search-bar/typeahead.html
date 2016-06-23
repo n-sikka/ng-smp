@@ -1,9 +1,11 @@
 <div class="search-typeahead"  ng-repeat="type in types" ng-if="results[type].length != 0">
 
-	<ul>
+	<ul class="list-group">
 
 		<span>
-			<li><h3>{{type}} ( {{results[type].length}} )</h3></li>
+			<li class="list-group-item">{{type}}
+				<span class="badge">{{results[type].length}}</span>
+			</li>
 			<li ng-repeat="model in results[type] | limitTo: limit" >
 				<a href="">
 					{{model._source.name}}

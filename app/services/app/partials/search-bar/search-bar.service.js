@@ -35,7 +35,18 @@
           $log.error(response.statusText);
         })
       }else if(request === ''){
-        service.set(request);
+        //service.set(request);
+        var rand = '132123'
+
+        $http({
+          method: 'GET',
+          url: route + 'name:' + rand + routeConfig
+        }).then(function success(response){
+          service.set(response.data.hits.hits);
+        },
+        function error(response){
+          $log.error(response.statusText);
+        })
       }
 
     }
