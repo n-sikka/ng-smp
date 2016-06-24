@@ -77,7 +77,6 @@
 			request : this is the string that is to be searched for.
 		*/
     service.search = function(request){
-
       if(request){
 				var data = service.createQuery(request);
 
