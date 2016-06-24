@@ -4,14 +4,26 @@
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 column-center">
 		<search-bar  group="_type" limit="2"></search-bar>
 	</div>
-	<div class="banner" style="margin-top: 64px; margin-bottom: 64px;">
-		<img class="img-responsive" src="http://placehold.it/1000x150">
-	</div>
+	
 
-	<div class="row specialities-container">
+	<div class="row specialities-container" ng-init="vm.getSpec()">
 		<h3 class="text-center">Medical Specialities</h3>
+		
 		<hr/>
-		<specialities-card limit="8" loadmore="true"></specialities-card>
+
+		<div ng-repeat="item in vm.specialities | limitTo: 8">
+			<div class="col-sm-4">
+				<speciality-card  data="item"></specialities-card>
+			</div>
+		</div>
+		
+		<div 	ng-click="vm.openModal()"
+				 	class="col-sm-4"> 
+			
+			<h3>View more </h3>
+			<p>{{vm.specialities.length}} Specialities</p>
+		</div>
+
 	</div>
 
 </div>
