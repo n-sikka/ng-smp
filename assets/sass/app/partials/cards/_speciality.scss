@@ -1,30 +1,21 @@
-.speciality {
-	margin-top: 64px;
-	margin-bottom: 128px-64px;
-	h3 {
-		color: $theme-grey;
-		margin-bottom: 64px;
+.speciality-card {
+	margin-bottom: 64px;
+
+	.speciality-name {
+		font-size: 19px;
+		color: #767676;
+		padding-bottom: 16px;
 	}
-	.speciality-container {
-		margin-bottom: 64px;
-		cursor: pointer;
-		height: 132px;
-		.speciality-name {
-			font-size: 19px;
-			color: #767676;
-			padding-bottom: 16px;
-		}
 
-		.speciality-procedures {
-			font-size: 10px;
-			color: $theme-grey;
-			text-transform: uppercase;
-			padding-bottom: 16px;
-		}
+	.speciality-procedures {
+		font-size: 10px;
+		color: $theme-grey;
+		text-transform: uppercase;
+		padding-bottom: 16px;
+	}
 
-		.speciality-icon {
-			font-size: 32px;
-			color: $secondary-color;
-		}
+	.speciality-icon {
+		font-size: 32px;
+		color: $secondary-color;
 	}
 }

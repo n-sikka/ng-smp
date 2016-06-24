@@ -8,23 +8,20 @@
 		</div>
 	</div>
 
-	<div class="row speciality page-padding text-center" ng-init="vm.getSpec()">
-		<h3>Medical Specialties</h3>
+	<div class="row slide-container page-padding text-center" ng-init="vm.getSpec()">
+		<h3 class="slide-title">Medical Specialties</h3>
 		
-			<div ng-repeat="item in vm.specialities | limitTo: 8"
-				 class="col-lg-4 col-md-4 col-sm-6 speciality-container">
-				
-				<speciality-card  data="item"></specialities-card>
-			
-			</div>
-			<div 	ng-click="vm.openModal()"
-					class="col-lg-4 col-md-4 col-sm-6 speciality-container"> 
-				
-					<p class="speciality-name">View All</p>
-				<p class="speciality-procedures">{{vm.specialities.length}} Specialities</p>
-				<i class="fa fa-bars speciality-icon"></i>
+		<div ng-repeat="item in vm.specialities | limitTo: 8" 
+			 class="col-lg-4 col-md-4 col-sm-6 speciality-card">
 
-			</div>
+			<speciality-card data="item"></specialities-card>
+		
+		</div>
+		<div ng-if="vm.specialities" ng-click="vm.openModal()" class="col-lg-4 col-md-4 col-sm-6 speciality-card"> 
+			<p class="speciality-name">View All</p>
+			<p class="speciality-procedures">{{vm.specialities.length}} Specialities</p>
+			<i class="fa fa-bars speciality-icon"></i>
+		</div>
 	</div>
 	
 </div>
