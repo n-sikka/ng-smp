@@ -8,15 +8,24 @@
 		</div>
 	</div>
 
-	<div class="row speciality text-center">
+	<div class="row speciality page-padding text-center" ng-init="vm.getSpec()">
 		<h3>Medical Specialties</h3>
 		
-			<div class="col-lg-4 col-md-4 col-sm-6 speciality-container" ng-repeat="item in [1,2,3,4,5,6,7,8]">
-				<p class="speciality-name">Spec Name</p>
-				<p class="speciality-procedures">{{item}} Procedures</p>
-				<i class="fa fa-home speciality-icon"></i>
+			<div ng-repeat="item in vm.specialities | limitTo: 8"
+				 class="col-lg-4 col-md-4 col-sm-6 speciality-container">
+				
+				<speciality-card  data="item"></specialities-card>
 			
-		</div>
-	</div>
+			</div>
+			<div 	ng-click="vm.openModal()"
+					class="col-lg-4 col-md-4 col-sm-6 speciality-container"> 
+				
+					<p class="speciality-name">View All</p>
+				<p class="speciality-procedures">{{vm.specialities.length}} Specialities</p>
+				<i class="fa fa-bars speciality-icon"></i>
 
+			</div>
+	</div>
+	
 </div>
+
