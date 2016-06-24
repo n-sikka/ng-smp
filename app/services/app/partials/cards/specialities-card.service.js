@@ -5,7 +5,7 @@
   .module('symptum')
   .factory('SpecialitiesService', service);
 
-  function service($http, $log) {
+  function service($http, $log, API) {
     var service = {};
 
     service.getSpecialities = function(){
@@ -13,7 +13,7 @@
       return $http({
         method: 'GET',
         cache: true,
-        url: 'http://api.symptum.com/api/v1/specialities'
+        url: API.SPECIALITIES
       }).then(function success(response){
         
         return response;

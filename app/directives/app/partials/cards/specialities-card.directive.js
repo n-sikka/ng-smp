@@ -21,10 +21,16 @@
 
 			function linkFunction(scope, element) {
 				
+				/*				
+					this function sends to route of specility page , it takes route string as path 
+				*/
 				scope.goTo = function(path) {
 				  $location.path( path );
 		    };
 
+		    /*
+		    	this function opnes a modal for all specilities , parent scope is passed in it as scope
+				*/
 		    scope.openSpecialitiesModal = function() {
 					var ModalInstance = $uibModal.open({
 						templateUrl: 'app/views/app/partials/modals/specialities-modal.html',
@@ -35,11 +41,6 @@
 					})
 		    	
 		    }
-/*
-		    element.bind('click', specialitiesClick);
-
-		    element.bind('click', '.load-more-specialities', openSpecialitiesModal);
-			*/
 			}
 
 
