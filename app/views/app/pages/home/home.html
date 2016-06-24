@@ -1,30 +1,28 @@
 <h1 class="title text-center">Welcome to Symptum</h1>
 
 <div class="container">
-	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 column-center">
-		<search-bar  group="_type" limit="2"></search-bar>
+
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 column-center">
+			<search-bar  group="_type" limit="2"></search-bar>
+		</div>
+	</div>
+
+	<div class="row slide-container page-padding text-center" ng-init="vm.getSpec()">
+		<h3 class="slide-title">Medical Specialties</h3>
+		
+		<div ng-repeat="item in vm.specialities | limitTo: 8" 
+			 class="col-lg-4 col-md-4 col-sm-6 speciality-card">
+
+			<speciality-card data="item"></specialities-card>
+		
+		</div>
+		<div ng-if="vm.specialities" ng-click="vm.openModal()" class="col-lg-4 col-md-4 col-sm-6 speciality-card"> 
+			<p class="speciality-name">View All</p>
+			<p class="speciality-procedures">{{vm.specialities.length}} Specialities</p>
+			<i class="fa fa-bars speciality-icon"></i>
+		</div>
 	</div>
 	
-
-	<div class="row specialities-container" ng-init="vm.getSpec()">
-		<h3 class="text-center">Medical Specialities</h3>
-		
-		<hr/>
-
-		<div ng-repeat="item in vm.specialities | limitTo: 8">
-			<div class="col-sm-4">
-				<speciality-card  data="item"></specialities-card>
-			</div>
-		</div>
-		
-		<div 	ng-click="vm.openModal()"
-				 	class="col-sm-4"> 
-			
-			<h3>View more </h3>
-			<p>{{vm.specialities.length}} Specialities</p>
-		</div>
-
-	</div>
-
 </div>
 

@@ -1,0 +1,21 @@
+.speciality-card {
+	margin-bottom: 64px;
+
+	.speciality-name {
+		font-size: 19px;
+		color: #767676;
+		padding-bottom: 16px;
+	}
+
+	.speciality-procedures {
+		font-size: 10px;
+		color: $theme-grey;
+		text-transform: uppercase;
+		padding-bottom: 16px;
+	}
+
+	.speciality-icon {
+		font-size: 32px;
+		color: $secondary-color;
+	}
+}

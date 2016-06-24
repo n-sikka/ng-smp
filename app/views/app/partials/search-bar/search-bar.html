@@ -1,12 +1,14 @@
-<div class="search-bar-input">
-	<i class="fa fa-search  search-icon" area-hidden = "true"></i>
-	<i class="fa fa-circle-o-notch fa-spin search-loader-icon" aria-hidden="true"></i>
+<div class="search-bar">
+	<div class="search-bar-input">
+		<i class="fa fa-search  search-icon" area-hidden = "true"></i>
+		<i class="fa fa-circle-o-notch fa-spin search-loader-icon" aria-hidden="true"></i>
 
-	<input type="text" ng-keyup="vm.set(query)" ng-model="query" placeholder="Doctors, Hospitals and Medical Procedures" />
-</div>
+		<input type="text" ng-keyup="vm.set(query)" ng-model="query" placeholder="Doctors, Hospitals and Medical Procedures" />
+	</div>
 
-<div class="search-typeahead-container">
-	<search-typeahead query="results" groups="types" limit="limitBy"></search-typeahead>
+	<div class="search-typeahead-container">
+		<search-typeahead query="results" groups="types" limit="limitBy"></search-typeahead>
+	</div>
 </div>
 
 
