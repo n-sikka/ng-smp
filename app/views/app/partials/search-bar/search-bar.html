@@ -16,12 +16,11 @@
 	$('body').on('click', function(e){
 		var container = $(".search-bar");
 
-    if (!container.is(e.target) && container.has(e.target).length === 0) 
+    if (!container.is(e.target) && container.has(e.target).length === 0)
     {
-      $('.search-typeahead-container').slideUp();
+      $('.search-typeahead-container').hide();
     } else {
-    	$('.search-typeahead-container').slideDown();
-    }		
+    	$('.search-typeahead-container').show();
+    }
 	});
 </script>
-
