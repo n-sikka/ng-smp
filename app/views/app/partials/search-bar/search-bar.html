@@ -18,9 +18,9 @@
 
     if (!container.is(e.target) && container.has(e.target).length === 0) 
     {
-      $('.search-typeahead-container').hide();
+      $('.search-typeahead-container').slideUp();
     } else {
-    	$('.search-typeahead-container').show();
+    	$('.search-typeahead-container').slideDown();
     }		
 	});
 </script>
