@@ -2,22 +2,23 @@
 	position: relative;
 
 	.search-bar-input {
+			margin-top: 34px;
 			background-color: #fff;
 			box-shadow: 1.638px 1.147px 8px 0 rgba(235, 101, 108, 0.2);
 			left: 0;
-			padding: 32px;
+			border: 1px solid #eee;
+			@include padding(24px, 24px, 32px, 32px);
 			position: relative;
 			top: 0;
 			width: 100%;
 
 
 			input {
-
-			border: 0;
-			color: $theme-grey;
-			font-size: 19px;
-			width: 81%;
-		}
+				border: 0;
+				color: $theme-grey;
+				font-size: 19px;
+				width: 81%;
+			}
 
 		.search-icon {
 			color: $theme-grey;
@@ -30,6 +31,10 @@
 			color: #eee;
 			float: right;
 			font-size: 24px;
+
+			&.fa-spin {
+				color: #34BB9B;
+			}
 		}
 	}
 
@@ -37,10 +42,94 @@
 		background-color: #fff;
 		display: block;
 		left: 0;
+		border: 1px solid #a8a8a8;
+		box-shadow: 1.638px 1.147px 8px 0 rgba(235, 101, 108, 0.2);
 		position: absolute;
-		top: 94px;
+		margin-top: 12px;
 		width: 100%;
 		z-index: 500;
+		@include padding(12px, 32px, 24px, 24px);
+
+		.list-header {
+			@include padding(15px, 24px, inherit, inherit);
+
+			.list-title {
+				font-size: 14px;
+				color: $theme-grey;
+			}
+
+		}
+
+		.list-item {
+			@include padding(inherit, 24px, inherit, inherit);
+
+			.item-img {
+				padding-top: 9px;
+
+				.list-item-img {
+					max-width: 32px;
+					height: 32px;
+					@include padding(1rem, 1rem, 1.5rem, 1.5rem);
+					font-size: 16px;
+					text-transform: uppercase;
+					background-color: #efefef;
+					color: #767676;
+					margin-right: 16px;
+				}
+			}
+
+			.item-details {
+				.item-name {
+					font-weight: 500;
+					font-size: 17px;
+					color: #767676;
+				}
+				.item-meta {
+					font-weight: 400;
+					font-size: 12px;
+					color: #a8a8a8;
+				}
+			}
+
+		}
+
+		.typeahead-seperator {
+			border-top: 1px solid lighten(#a8a8a8 , 25%);
+			margin-top: 24px;
+		}
+
+		.typeahead-footer {
+
+			.typeahead-search-more {
+				@include padding(12px, inherit, inherit, inherit);
+				cursor: pointer;
+
+				.search-icon {
+					color: #a8a8a8;
+					margin-right: 12px;
+				}
+
+
+				.message {
+					font-size: 17px;
+					font-weight: 400;
+					color: #a8a8a8;
+					b {
+						font-weight: 500;
+						color: #727272;
+					}
+				}
+
+				.message-count {
+					font-size: 14px;
+					font-weight: 400;
+					color: #212121;
+				}
+
+			}
+
+		}
+
 	}
 
 }

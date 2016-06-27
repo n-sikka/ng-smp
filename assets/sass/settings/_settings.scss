@@ -11,6 +11,11 @@ select {
   }
 }
 
+html,
+body {
+  background-color: #ffffff;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,20 +45,4 @@ html {
 
 h1, h2, h3 {
   font-family: $title-font;
-}
-
-
-.page-padding {
-  padding-left: 238px;
-  padding-right: 238px;
-}
-
-.slide-container {
-  margin-bottom: 64px;
-  margin-top: 64px;
-}
-
-.slide-title {
-    color: $theme-grey;
-    margin-bottom: 64px;
 }

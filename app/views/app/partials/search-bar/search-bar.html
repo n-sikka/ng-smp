@@ -1,8 +1,7 @@
 <div class="search-bar">
 	<div class="search-bar-input">
-		<i class="fa fa-search  search-icon" area-hidden = "true"></i>
-		<i class="fa fa-circle-o-notch fa-spin search-loader-icon" aria-hidden="true"></i>
-
+		<i class="fa fa-search  search-icon"></i>
+		<i class="fa fa-circle-o-notch search-loader-icon" ng-class="{'fa-spin': vm.searching==true}"></i>
 		<input type="text" ng-keyup="vm.set(query)" ng-model="query" placeholder="Doctors, Hospitals and Medical Procedures" />
 	</div>
 
@@ -14,13 +13,14 @@
 
 <script type="text/javascript">
 	$('body').on('click', function(e){
+
 		var container = $(".search-bar");
 
-    if (!container.is(e.target) && container.has(e.target).length === 0)
-    {
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
       $('.search-typeahead-container').hide();
     } else {
     	$('.search-typeahead-container').show();
     }
+
 	});
 </script>

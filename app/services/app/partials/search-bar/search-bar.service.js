@@ -78,31 +78,16 @@
 		*/
     service.search = function(request){
       if(request){
-				var data = service.createQuery(request);
+			 var data = service.createQuery(request);
 
-        $http({
+       return $http({
           method: 'POST',
           url: API.SEARCH ,
           data: data
-        }).then(function success(response){
-          service.set(response.data);
-        },
-        function error(response){
-          $log.error(response.statusText);
         })
 
       }else if(request === ''){
-
-        $http({
-          method: 'POST',
-          url: API.SEARCH ,
-          data: service.createQuery('123456789')
-        }).then(function success(response){
-          service.set(response.data);
-        },
-        function error(response){
-          $log.error(response.statusText);
-        })
+        return null;
       }
 
     }

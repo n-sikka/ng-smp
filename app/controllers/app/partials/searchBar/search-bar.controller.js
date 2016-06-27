@@ -6,12 +6,22 @@
 	.controller('SearchBarController', controller);
 
 
-	function controller(SearchService) {
+	function controller(SearchService, $log) {
 
 		var vm = this;
+		vm.searching = false;
 
 		vm.set = function(query){
-			SearchService.search(query);
+			vm.searching = true;
+			SearchService.search(query)
+										.then(function success(response){
+											SearchService.set(response.data);
+											vm.searching = false;
+										},
+										function error(response){
+											$log.error(response.statusText);
+											vm.searching = false;
+										});
 		}
 	}
 
