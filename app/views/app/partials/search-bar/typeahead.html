@@ -24,10 +24,10 @@
 
 </div>
 
-<div class="typeahead-seperator"></div>
-
-<div ng-repeat="type in types" class="typeahead-footer">
-	<div class="typeahead-search-more" ng-if="results[type].length == 0">
+<div class="typeahead-footer">
+	<div class="typeahead-search-more"
+			 ng-repeat="type in types"  
+			 ng-if="results[type].length == 0">
 		<i class="fa fa-search search-icon"></i>
 		<span class="message"><b>{{ type | uppercase}}</b> named <b>"{{ query }}"</b> </span>
 		<aside class="message-count pull-right">{{ results.counts[type] }} RESULTS</aside>

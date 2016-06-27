@@ -101,6 +101,12 @@
 
 		.typeahead-footer {
 
+			.typeahead-search-more{
+				&:nth-child(1){
+					border-top: 1px solid lighten(#a8a8a8 , 25%);
+					margin-top: 12px;
+				}
+			}
 			.typeahead-search-more {
 				@include padding(12px, inherit, inherit, inherit);
 				cursor: pointer;

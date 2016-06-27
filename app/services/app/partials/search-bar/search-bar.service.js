@@ -87,7 +87,13 @@
 				})
 
 			}else if(request === ''){
-				return null;
+				var data = service.createQuery(12344556);
+
+				return $http({
+					method: 'POST',
+					url: API.SEARCH ,
+					data: data
+				})
 			}
 		}
 
