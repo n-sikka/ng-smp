@@ -6,9 +6,8 @@
 		<input type="text" ng-keyup="vm.set(query)" ng-model="query" placeholder="Doctors, Hospitals and Medical Procedures" />
 	</div>
 
-	<div class="search-typeahead-container">
-		<search-typeahead query="results" groups="types" limit="limitBy"></search-typeahead>
+	<div class="search-typeahead-container" ng-if="query " ng-show="showTypehead">
+		<search-typeahead query="query" results="results" groups="types" limit="limitBy"></search-typeahead>
 	</div>
 </div>
-
 

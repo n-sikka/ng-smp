@@ -19,7 +19,7 @@
 		.module('symptum')
 		.directive('searchBar',directive);
 
-		function directive($rootScope, SearchService){
+		function directive($rootScope, SearchService, $document){
 			var directive = {
 				restrict: 'EA',
 				templateUrl: 'app/views/app/partials/search-bar/search-bar.html',
@@ -34,7 +34,31 @@
 			}
 			return directive;
 
-			function linkFunction(scope) {
+			function linkFunction(scope, element) {
+        
+        scope.showTypehead = true;
+
+				$document.on('click', function(ev){
+
+					function applyTypeaheadToggle(flag) {
+						return scope.$apply(function(){
+							scope.showTypehead = flag;
+						})
+					}
+
+					var isChild = element.has(event.target).length > 0;
+          var isSelf = element[0] == event.target;
+          var isInside = isChild || isSelf;
+
+          if (!isInside) {
+          	applyTypeaheadToggle(false);
+
+          } else if (isInside) {
+          	applyTypeaheadToggle(true);
+
+          }
+				});
+
 				var typeArray = [
 					'hospital',
 					'doctor',
