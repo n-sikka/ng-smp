@@ -76,21 +76,20 @@
 
 			request : this is the string that is to be searched for.
 		*/
-    service.search = function(request){
-      if(request){
-			 var data = service.createQuery(request);
+		service.search = function(request){
+			if(request){
+				var data = service.createQuery(request);
 
-       return $http({
-          method: 'POST',
-          url: API.SEARCH ,
-          data: data
-        })
+				return $http({
+					method: 'POST',
+					url: API.SEARCH ,
+					data: data
+				})
 
-      }else if(request === ''){
-        return null;
-      }
-
-    }
+			}else if(request === ''){
+				return null;
+			}
+		}
 
 		/*
 			This function generates an empty array for each type provided.

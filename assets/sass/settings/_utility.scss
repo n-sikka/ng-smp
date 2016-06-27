@@ -29,20 +29,20 @@
 }
 
 .primary-tag {
-  cursor: pointer;
-  width: 108px;
-  text-align: center;
-  background-color: #eeeeee;
-  font-size: 14px;
-  color: #767676;
-  border-radius: 3rem;
   @include padding(0.5rem, 0.5rem, 1rem, 1rem);
-  transition: 0.2s all ease;
+  background-color: #eee;
+  border-radius: 3rem;
+  color: #767676;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  transition: 0.2s ease;
+  width: 108px;
 
   &:hover,
   &:focus  {
-    transition: 0.2s all ease;
-    background-color: darken(#eeeeee, 7.5%);
+    background-color: darken(#eee, 7.5%);
     color: darken(#767676, 10%);
+    transition: 0.2s ease;
   }
 }
