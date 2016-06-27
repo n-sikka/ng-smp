@@ -1,25 +1,35 @@
-<div class="search-typeahead"  ng-repeat="type in types" ng-if="results[type].length != 0">
+<div ng-repeat="type in types" ng-if="results[type].length != 0">
 
-	<ul class="list-group">
+	<ul class="typeahead-list">
 
-		<span>
-			<li class="list-group-item">{{type}}
-				<span class="badge">{{results.counts[type]}}</span>
-			</li>
-			<li ng-repeat="model in results[type] | limitTo: limit" >
-				<a href="">
-					{{model._source.name}}
-				</a>
-			</li>
-		</span>
+		<li class="list-header">
+			<span class="list-title text-uppercase">{{type}}</span>
+
+			<i class="primary-divider fa fa-minus"></i><i class="primary-divider _path2 fa fa-minus"></i>
+
+			<span class="list-count pull-right primary-tag">View All <b>{{results.counts[type]}}</b></span>
+		</li>
+
+		<li class="list-item" ng-repeat="model in results[type] | limitTo: limit" >
+			<div class="item-img pull-left">
+				<span class="img-circle list-item-img">{{model._source.name | limitTo: 1 }}</span>
+			</div>
+			<div class="item-details">
+					<p class="item-name">{{model._source.name}}</p>
+					<p class="item-meta">{{model._source.city}}</p>
+			</div>
+		</li>
 
 	</ul>
 
 </div>
 
-<div ng-repeat="type in types" class="search-typeahead-footer text-right">
-	<a ng-if="results[type].length == 0" href="">
-		<i>{{results.counts[type]}} more {{type}} containing </i><b>{{query}}</b>
-	</a>
-</div>
+<div class="typeahead-seperator"></div>
 
+<div class="typeahead-footer" ng-repeat="type in types" class="search-typeahead-footer text-right">
+	<div class="typeahead-search-more" ng-if="results[type].length == 0">
+		<i class="fa fa-search search-icon"></i>
+		<span class="message"><b>{{ type | uppercase}}</b> named <b>"{{ query }}"</b> </span>
+		<aside class="message-count pull-right">{{ results.counts[type] }} RESULTS</aside>
+	</div>
+</div>

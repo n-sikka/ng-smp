@@ -1,8 +1,5 @@
 //***** CONFIG IMPORTS *****
 @import 'settings/_variables';
-@import 'settings/_settings';
 @import 'settings/_mixins';
-
-.title {
-		font-family: $primary-font;
-}
+@import 'settings/_settings';
+@import 'settings/_utility';
