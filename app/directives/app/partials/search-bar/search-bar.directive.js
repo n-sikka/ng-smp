@@ -19,7 +19,7 @@
 		.module('symptum')
 		.directive('searchBar',directive);
 
-		function directive($rootScope, SearchService){
+		function directive($rootScope, SearchService, $document){
 			var directive = {
 				restrict: 'EA',
 				templateUrl: 'app/views/app/partials/search-bar/search-bar.html',
@@ -34,7 +34,8 @@
 			}
 			return directive;
 
-			function linkFunction(scope) {
+			function linkFunction(scope, element) {
+
 				var typeArray = [
 					'hospital',
 					'doctor',
