@@ -2,20 +2,21 @@
 	margin-bottom: 64px;
 
 	.speciality-name {
-		font-size: 19px;
 		color: #767676;
+		font-size: 19px;
 		padding-bottom: 16px;
+		white-space: nowrap;
 	}
 
 	.speciality-procedures {
-		font-size: 10px;
 		color: $theme-grey;
-		text-transform: uppercase;
+		font-size: 10px;
 		padding-bottom: 16px;
+		text-transform: uppercase;
 	}
 
 	.speciality-icon {
-		font-size: 32px;
 		color: $secondary-color;
+		font-size: 32px;
 	}
 }
