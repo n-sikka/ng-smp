@@ -1,5 +1,33 @@
-.navbar-brand {
-  &.brand {
-    font-size: 18px;
-  }
+.navbar-container {
+	padding-top: 40px;
+	padding-left: 100px;
+	padding-bottom: 64px;
+
+	@media only screen and (max-width: 767px) {
+		padding-left: 0;
+ 		padding-right: 0;
+	}
+
+	.brand {
+	    font-size: 24px;
+	    font-weight: bold;
+	    color: $secondary-color;
+	    text-decoration: none;
+
+	    &:hover {
+	    	color: $secondary-color;
+	    }
+	  }
+
+	.navbar-links {
+		font-size: 19px;
+		color: #767676;
+		text-decoration: none;
+			&:hover, 
+			&:focus {
+				background-color: transparent;
+			}
+	}
 }
+
+ 
