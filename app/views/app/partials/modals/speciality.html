@@ -1,4 +1,4 @@
-<div class=" text-center">
+<div class="speciality-modal text-center">
   
   <div class="modal-header">
       <h3 class="modal-title">
@@ -21,3 +21,12 @@
   </div>
 
 </div>  
+
+<script type="text/javascript">
+  if ($('body').hasClass('modal-open')) {
+    $('.modal-dialog').css({'width': '100%', 'margin': '0'});
+    $('body').addClass('speciality-modal-open');
+  } else {
+    $('body').removeClass('speciality-modal-open');
+  }
+</script>
