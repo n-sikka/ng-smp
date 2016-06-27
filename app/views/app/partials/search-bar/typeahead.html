@@ -19,7 +19,7 @@
 
 <div ng-repeat="type in types" class="search-typeahead-footer text-right">
 	<a ng-if="results[type].length == 0" href="">
-		<b>{{results.counts[type]}} more {{type}} for {{query}}</b>
+		<i>{{results.counts[type]}} more {{type}} containing </i><b>{{query}}</b>
 	</a>
 </div>
 
