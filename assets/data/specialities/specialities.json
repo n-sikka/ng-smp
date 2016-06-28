@@ -1,0 +1,2328 @@
+[
+    {
+        "id": 9,
+        "name": "CARDIOLOGY",
+        "procedure": [
+            {
+                "id": 42,
+                "name": "Exercise stress testing"
+            },
+            {
+                "id": 43,
+                "name": "Electrocardiograms"
+            },
+            {
+                "id": 44,
+                "name": "Stress Echocardiograms"
+            },
+            {
+                "id": 45,
+                "name": "Holter monitoring"
+            },
+            {
+                "id": 46,
+                "name": "Tread mill testing"
+            },
+            {
+                "id": 47,
+                "name": "Intra-aortic balloon pump (IABP)"
+            },
+            {
+                "id": 48,
+                "name": "Temporary pacemaker implantation (TPI)-single chamber"
+            },
+            {
+                "id": 49,
+                "name": "Temporary pacemaker implantation (TPI)-dual chamber"
+            },
+            {
+                "id": 50,
+                "name": "Permanent pacemaker implantation (PPI)-single chamber"
+            },
+            {
+                "id": 51,
+                "name": "Permanent pacemaker implantation (PPI)-dual chamber"
+            },
+            {
+                "id": 52,
+                "name": "Permanent pacemaker implantation (PPI)-biventricular chamber"
+            },
+            {
+                "id": 53,
+                "name": "Balloon angioplasty/Percutaneous coronary intervention/Percutaneous transluminal coronary angioplast"
+            },
+            {
+                "id": 54,
+                "name": "Laser angioplasty"
+            },
+            {
+                "id": 55,
+                "name": "Balloon valvotomy/PTMC"
+            },
+            {
+                "id": 56,
+                "name": "Radiofrequency ablation/Catheter ablation"
+            },
+            {
+                "id": 57,
+                "name": "Coronary angiography"
+            },
+            {
+                "id": 58,
+                "name": "Percutaneous valve repair/replacement"
+            },
+            {
+                "id": 59,
+                "name": "Pericardial Aspiration/Pericardiocentesis"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 26,
+        "name": "CARDIOTHORACIC SURGERY",
+        "procedure": [
+            {
+                "id": 45,
+                "name": "Holter monitoring"
+            },
+            {
+                "id": 47,
+                "name": "Intra-aortic balloon pump (IABP)"
+            },
+            {
+                "id": 55,
+                "name": "Balloon valvotomy/PTMC"
+            },
+            {
+                "id": 280,
+                "name": "Coronary artery bypass grafting (CABG)"
+            },
+            {
+                "id": 281,
+                "name": "CABG with intra-aortic balloon pump (CABG) or valve"
+            },
+            {
+                "id": 282,
+                "name": "ASD/VSD/PDA closure"
+            },
+            {
+                "id": 283,
+                "name": "Mitral/aortic valve repair"
+            },
+            {
+                "id": 284,
+                "name": "Septostomy"
+            },
+            {
+                "id": 285,
+                "name": "Heart transplant"
+            },
+            {
+                "id": 286,
+                "name": "Aortofemoral bypass"
+            },
+            {
+                "id": 287,
+                "name": "Coarctation of aorta dilatation"
+            },
+            {
+                "id": 288,
+                "name": "Radiofrequency ablation"
+            },
+            {
+                "id": 289,
+                "name": "Automatic implantable cardioverter/defibrillator (AICD)"
+            },
+            {
+                "id": 290,
+                "name": "Aortic arch replacement"
+            },
+            {
+                "id": 291,
+                "name": "Thoracic/abdominal aneurysm repair"
+            },
+            {
+                "id": 292,
+                "name": "Aortic dissection"
+            },
+            {
+                "id": 293,
+                "name": "Transesophageal ECHO (TEE)"
+            },
+            {
+                "id": 294,
+                "name": "Peripheral angioplasty"
+            },
+            {
+                "id": 295,
+                "name": "Lung transplantation"
+            },
+            {
+                "id": 296,
+                "name": "Thoracic aortic surgery"
+            },
+            {
+                "id": 297,
+                "name": "Bronchoscopy"
+            },
+            {
+                "id": 298,
+                "name": "Lung volume reduction surgery"
+            },
+            {
+                "id": 299,
+                "name": "Visual assisted thoracoscopic surgery"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 39,
+        "name": "DENTISTRY",
+        "procedure": [
+            {
+                "id": 483,
+                "name": "Orthopentamogram (OPG) x ray"
+            },
+            {
+                "id": 484,
+                "name": "IOPA x ray"
+            },
+            {
+                "id": 485,
+                "name": "Fillings"
+            },
+            {
+                "id": 486,
+                "name": "Scaling and polishing"
+            },
+            {
+                "id": 487,
+                "name": "Root canal treatment"
+            },
+            {
+                "id": 488,
+                "name": "Dental extraction"
+            },
+            {
+                "id": 489,
+                "name": "Dental braces"
+            },
+            {
+                "id": 490,
+                "name": "Apicoectomy"
+            },
+            {
+                "id": 491,
+                "name": "Maxillectomy"
+            },
+            {
+                "id": 492,
+                "name": "Hemi-mandibulectomy"
+            },
+            {
+                "id": 493,
+                "name": "Segmental mandibulectomy"
+            },
+            {
+                "id": 494,
+                "name": "Submucous fibrosis band release"
+            },
+            {
+                "id": 495,
+                "name": "Metal crown"
+            },
+            {
+                "id": 496,
+                "name": "Internal wire/plate fixation of maxilla/mandible"
+            },
+            {
+                "id": 497,
+                "name": "Maxillary fracture reduction/immobilization"
+            },
+            {
+                "id": 498,
+                "name": "Mandibular fracture reduction/immobilization"
+            },
+            {
+                "id": 499,
+                "name": "Partial denture"
+            },
+            {
+                "id": 500,
+                "name": "Complete denture"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 31,
+        "name": "DERMATOLOGY",
+        "procedure": [
+            {
+                "id": 261,
+                "name": "Dermabrasion"
+            },
+            {
+                "id": 390,
+                "name": "Allergy skin testing"
+            },
+            {
+                "id": 391,
+                "name": "UV therapy (for psoriasis, eczema, vitiligo)"
+            },
+            {
+                "id": 392,
+                "name": "Skin biopsy"
+            },
+            {
+                "id": 393,
+                "name": "Botox injection/Anti-ageing therapy"
+            },
+            {
+                "id": 394,
+                "name": "Facial fillers/Anti-ageing therapy"
+            },
+            {
+                "id": 395,
+                "name": "Chemical peel"
+            },
+            {
+                "id": 396,
+                "name": "Laser hair removal"
+            },
+            {
+                "id": 397,
+                "name": "Photodynamic therapy"
+            },
+            {
+                "id": 398,
+                "name": "Excision of Corns/moles/warts"
+            },
+            {
+                "id": 399,
+                "name": "Injection Keloid"
+            },
+            {
+                "id": 400,
+                "name": "Chemical Cautery"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 36,
+        "name": "EMERGENCY MEDICINE",
+        "procedure": [
+            {
+                "id": 458,
+                "name": "Ambulance service"
+            },
+            {
+                "id": 459,
+                "name": "Intensive care unit"
+            },
+            {
+                "id": 460,
+                "name": "Coronary care unit"
+            },
+            {
+                "id": 461,
+                "name": "Neonatal/ pediatric ICU"
+            },
+            {
+                "id": 462,
+                "name": "Stroke ICU"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 22,
+        "name": "ENDOCRINE SURGERY",
+        "procedure": [
+            {
+                "id": 187,
+                "name": "Adrenalectomy – open"
+            },
+            {
+                "id": 188,
+                "name": "Adrenalectomy - laproscopic"
+            },
+            {
+                "id": 189,
+                "name": "Partial/subtotal thyroidectomy"
+            },
+            {
+                "id": 190,
+                "name": "Resection of substernal goitre"
+            },
+            {
+                "id": 191,
+                "name": "Total thyroidectomy"
+            },
+            {
+                "id": 192,
+                "name": "Parathyroidectomy"
+            },
+            {
+                "id": 193,
+                "name": "Removal of thyroglossal duct cyst/Sistrunk procedure"
+            },
+            {
+                "id": 194,
+                "name": "Ethyl alcohol ablation of thyroid nodule"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 12,
+        "name": "ENDOCRINOLOGY",
+        "procedure": [],
+        "special_interest": []
+    },
+    {
+        "id": 28,
+        "name": "ENT/OTOLARYNGOLOGY",
+        "procedure": [
+            {
+                "id": 189,
+                "name": "Partial/subtotal thyroidectomy"
+            },
+            {
+                "id": 191,
+                "name": "Total thyroidectomy"
+            },
+            {
+                "id": 297,
+                "name": "Bronchoscopy"
+            },
+            {
+                "id": 311,
+                "name": "Thyroidectomy"
+            },
+            {
+                "id": 312,
+                "name": "Tosillectomy"
+            },
+            {
+                "id": 313,
+                "name": "Adenoidectomy"
+            },
+            {
+                "id": 314,
+                "name": "Myringoplasty"
+            },
+            {
+                "id": 315,
+                "name": "Tympanoplasty"
+            },
+            {
+                "id": 316,
+                "name": "Mastoidectomy"
+            },
+            {
+                "id": 317,
+                "name": "Stapedectomy (hearing improvement)"
+            },
+            {
+                "id": 318,
+                "name": "Ossiculoplasty"
+            },
+            {
+                "id": 319,
+                "name": "Skull base surgery"
+            },
+            {
+                "id": 320,
+                "name": "Cochlear implant"
+            },
+            {
+                "id": 321,
+                "name": "Cosmetic ear surgery"
+            },
+            {
+                "id": 322,
+                "name": "Laryngotracheal reconstructive surgery"
+            },
+            {
+                "id": 323,
+                "name": "Nose reconstruction"
+            },
+            {
+                "id": 324,
+                "name": "Tracheostomy"
+            },
+            {
+                "id": 325,
+                "name": "Speech assessment"
+            },
+            {
+                "id": 326,
+                "name": "Speech therapy"
+            },
+            {
+                "id": 327,
+                "name": "Polyp removal"
+            },
+            {
+                "id": 328,
+                "name": "Syringing"
+            },
+            {
+                "id": 329,
+                "name": "Functional endoscopic sinus surgery (FESS)"
+            },
+            {
+                "id": 330,
+                "name": "Nasal septoplasty"
+            },
+            {
+                "id": 331,
+                "name": "Dacrocystorhinostomy"
+            },
+            {
+                "id": 332,
+                "name": "Pharyngoplasty"
+            },
+            {
+                "id": 333,
+                "name": "Laryngectomy"
+            },
+            {
+                "id": 334,
+                "name": "Laryngopharyngectomy"
+            },
+            {
+                "id": 335,
+                "name": "Palatopharyngoplasty"
+            },
+            {
+                "id": 336,
+                "name": "Indirect laryngoscopy"
+            },
+            {
+                "id": 337,
+                "name": "Caldwell luc surgery"
+            },
+            {
+                "id": 338,
+                "name": "Nasal packing"
+            },
+            {
+                "id": 339,
+                "name": "Excision of branchial cyst/sinus"
+            },
+            {
+                "id": 340,
+                "name": "Excision of cystic hygroma"
+            },
+            {
+                "id": 341,
+                "name": "Excision of thyroglossal cyst"
+            },
+            {
+                "id": 342,
+                "name": "Excision of parathyroid adenoma/carcinoma"
+            },
+            {
+                "id": 343,
+                "name": "Operation for carcinoma lip"
+            },
+            {
+                "id": 344,
+                "name": "Hemiglossectomy"
+            },
+            {
+                "id": 345,
+                "name": "Total glossectomy"
+            },
+            {
+                "id": 346,
+                "name": "Commando operation"
+            },
+            {
+                "id": 347,
+                "name": "Excision of maxilla (for cancer)"
+            },
+            {
+                "id": 348,
+                "name": "Excision of mandible (for cancer)"
+            },
+            {
+                "id": 349,
+                "name": "Modified radical neck dissection"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 10,
+        "name": "GASTROENTEROLOGY",
+        "procedure": [
+            {
+                "id": 60,
+                "name": "Upper GI endoscopy with/without biopsy"
+            },
+            {
+                "id": 61,
+                "name": "Balloon dilatation of achalasia cardia"
+            },
+            {
+                "id": 62,
+                "name": "Foreign body removal"
+            },
+            {
+                "id": 63,
+                "name": "Esophageal stenting"
+            },
+            {
+                "id": 64,
+                "name": "Colonoscopy"
+            },
+            {
+                "id": 65,
+                "name": "Sigmoidoscopy"
+            },
+            {
+                "id": 66,
+                "name": "Endoscopic retrograde cholangio-pancreatogram"
+            },
+            {
+                "id": 67,
+                "name": "Endoscopic ultrasound"
+            },
+            {
+                "id": 68,
+                "name": "Band ligation of esophageal varices"
+            },
+            {
+                "id": 69,
+                "name": "Sclerotherapy of esophageal varices"
+            },
+            {
+                "id": 70,
+                "name": "Endoscopic mucosal resection"
+            },
+            {
+                "id": 71,
+                "name": "Capsule endoscopy"
+            },
+            {
+                "id": 72,
+                "name": "Banding of hemorrhoids"
+            },
+            {
+                "id": 73,
+                "name": "Percutaneous transluminal biliary drainage (PTBD)"
+            },
+            {
+                "id": 74,
+                "name": "Endoscopic sphincterotomy"
+            },
+            {
+                "id": 75,
+                "name": "Endoscopic cysto gastrostomy"
+            },
+            {
+                "id": 76,
+                "name": "Liver abscess drainage (Ultrasound guided)"
+            },
+            {
+                "id": 77,
+                "name": "Liver biopsy"
+            },
+            {
+                "id": 78,
+                "name": "Balloon temponade for esophageal varices"
+            },
+            {
+                "id": 79,
+                "name": "Transjugular intrahepatic porto-systemic shunt (TIPS)"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 7,
+        "name": "GENERAL MEDICINE",
+        "procedure": [
+            {
+                "id": 17,
+                "name": "Intercostal Drainage/pleural fluid aspiration/Thoracentesis"
+            },
+            {
+                "id": 19,
+                "name": "Ascitic tap/Abdominal fluid drainage"
+            },
+            {
+                "id": 20,
+                "name": "Venesection"
+            },
+            {
+                "id": 21,
+                "name": "PICC line"
+            },
+            {
+                "id": 22,
+                "name": "Lumbar puncture"
+            },
+            {
+                "id": 23,
+                "name": "Central venous catheter – subclavian"
+            },
+            {
+                "id": 24,
+                "name": "Central venous catheter – femoral"
+            },
+            {
+                "id": 25,
+                "name": "Bone marrow aspiration/biopsy"
+            },
+            {
+                "id": 26,
+                "name": "Chest tube insertion"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 8,
+        "name": "GENERAL SURGERY",
+        "procedure": [
+            {
+                "id": 17,
+                "name": "Intercostal Drainage/pleural fluid aspiration/Thoracentesis"
+            },
+            {
+                "id": 19,
+                "name": "Ascitic tap/Abdominal fluid drainage"
+            },
+            {
+                "id": 20,
+                "name": "Venesection"
+            },
+            {
+                "id": 21,
+                "name": "PICC line"
+            },
+            {
+                "id": 23,
+                "name": "Central venous catheter – subclavian"
+            },
+            {
+                "id": 24,
+                "name": "Central venous catheter – femoral"
+            },
+            {
+                "id": 26,
+                "name": "Chest tube insertion"
+            },
+            {
+                "id": 27,
+                "name": "Dressings of wounds"
+            },
+            {
+                "id": 31,
+                "name": "Incision & Drainage"
+            },
+            {
+                "id": 33,
+                "name": "Injection for Haemorrhoids"
+            },
+            {
+                "id": 34,
+                "name": "Breast abscess drainage"
+            },
+            {
+                "id": 35,
+                "name": "Simple mastectomy"
+            },
+            {
+                "id": 36,
+                "name": "Modified radical mastectomy"
+            },
+            {
+                "id": 37,
+                "name": "Hemorrhoidectomy"
+            },
+            {
+                "id": 38,
+                "name": "Trucut biopsy"
+            },
+            {
+                "id": 39,
+                "name": "Excision biopsy/excision of lumps or cysts"
+            },
+            {
+                "id": 40,
+                "name": "Laser ablation of varicose veins"
+            },
+            {
+                "id": 41,
+                "name": "Radio ablation of varicose veins"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 20,
+        "name": "GI SURGERY",
+        "procedure": [
+            {
+                "id": 64,
+                "name": "Colonoscopy"
+            },
+            {
+                "id": 65,
+                "name": "Sigmoidoscopy"
+            },
+            {
+                "id": 126,
+                "name": "Appendectomy"
+            },
+            {
+                "id": 127,
+                "name": "Gallstone removal/cholecystectomy"
+            },
+            {
+                "id": 128,
+                "name": "Hernia repair/Heniorrhaphy"
+            },
+            {
+                "id": 129,
+                "name": "Upper GI endoscopy"
+            },
+            {
+                "id": 130,
+                "name": "ERCP"
+            },
+            {
+                "id": 131,
+                "name": "Esophagectomy"
+            },
+            {
+                "id": 132,
+                "name": "Achalasia cardia surgery"
+            },
+            {
+                "id": 133,
+                "name": "Heller’s operation"
+            },
+            {
+                "id": 134,
+                "name": "Hiatus hernia repair"
+            },
+            {
+                "id": 135,
+                "name": "Selective vagotomy"
+            },
+            {
+                "id": 136,
+                "name": "Esophageal variceal ligation/banding/sclerotherapy"
+            },
+            {
+                "id": 137,
+                "name": "Adrenalectomy"
+            },
+            {
+                "id": 138,
+                "name": "Gastrectomy"
+            },
+            {
+                "id": 139,
+                "name": "Exploratory laparotomy"
+            },
+            {
+                "id": 140,
+                "name": "Resection/anastomosis of small intestine"
+            },
+            {
+                "id": 141,
+                "name": "Surgery for intestinal obstruction"
+            },
+            {
+                "id": 142,
+                "name": "Surgery for intestinal perforation"
+            },
+            {
+                "id": 143,
+                "name": "Surgery for GI bleeding"
+            },
+            {
+                "id": 144,
+                "name": "Colostomy"
+            },
+            {
+                "id": 145,
+                "name": "Left/right hemicolectomy"
+            },
+            {
+                "id": 146,
+                "name": "Splenectomy"
+            },
+            {
+                "id": 147,
+                "name": "Gastric bypass surgery/Weight loss surgery/Bariatric surgery"
+            },
+            {
+                "id": 148,
+                "name": "Hepatic resection"
+            },
+            {
+                "id": 149,
+                "name": "Liver transplantation"
+            },
+            {
+                "id": 150,
+                "name": "Laproscopic surgery/Minimally invasive surgery"
+            },
+            {
+                "id": 151,
+                "name": "Whipple’s surgery"
+            },
+            {
+                "id": 152,
+                "name": "Fissurectomy"
+            },
+            {
+                "id": 153,
+                "name": "Rectal prolapse surgery"
+            },
+            {
+                "id": 154,
+                "name": "Low anterior resection of rectum"
+            },
+            {
+                "id": 155,
+                "name": "Abdominoperineal resection of rectum"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 15,
+        "name": "HEMATOLOGY",
+        "procedure": [
+            {
+                "id": 95,
+                "name": "Bone marrow (stem cell) transplantation – Autologous"
+            },
+            {
+                "id": 96,
+                "name": "Bone marrow (stem cell) transplantation - Allogenic"
+            },
+            {
+                "id": 97,
+                "name": "Bone marrow aspiration/biopsy"
+            },
+            {
+                "id": 100,
+                "name": "Targeted therapy"
+            },
+            {
+                "id": 101,
+                "name": "Immunotherapy"
+            },
+            {
+                "id": 102,
+                "name": "Chemotherapy for leukemias/lymphomas"
+            },
+            {
+                "id": 103,
+                "name": "Phlebotomy"
+            },
+            {
+                "id": 104,
+                "name": "Plasmapharesis/apharesis"
+            },
+            {
+                "id": 105,
+                "name": "Plasma exchange"
+            },
+            {
+                "id": 106,
+                "name": "Plateletpharesis"
+            },
+            {
+                "id": 107,
+                "name": "Leukapharesis"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 37,
+        "name": "INTERVENTIONAL RADIOLOGY",
+        "procedure": [
+            {
+                "id": 185,
+                "name": "Embolization"
+            },
+            {
+                "id": 288,
+                "name": "Radiofrequency ablation"
+            },
+            {
+                "id": 463,
+                "name": "Sclerotherapy (radiology-guided)"
+            },
+            {
+                "id": 464,
+                "name": "Angioplasty/stenting/thrombectomy (radiology-guided)"
+            },
+            {
+                "id": 465,
+                "name": "Intracranial aneurysm clipping"
+            },
+            {
+                "id": 466,
+                "name": "Biliary stenting (radiology-guided)"
+            },
+            {
+                "id": 467,
+                "name": "Biliary stone removal"
+            },
+            {
+                "id": 468,
+                "name": "Percutaneous cholangiogram"
+            },
+            {
+                "id": 469,
+                "name": "Transjugular intrahepatic portosystemic shunt"
+            },
+            {
+                "id": 470,
+                "name": "Percutaneous aneurysmal intervention"
+            },
+            {
+                "id": 471,
+                "name": "Vena cava filter placement"
+            },
+            {
+                "id": 472,
+                "name": "Transjugular liver biopsy"
+            },
+            {
+                "id": 473,
+                "name": "Tunneled catheters (transjugular/transfemoral) (radiology-guided)"
+            },
+            {
+                "id": 474,
+                "name": "Chemotherapy port placement (radiology-guided)"
+            },
+            {
+                "id": 476,
+                "name": "Hemodialysis port placement (radiology-guided)"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 13,
+        "name": "NEPHROLOGY",
+        "procedure": [
+            {
+                "id": 91,
+                "name": "Peritoneal dialysis"
+            },
+            {
+                "id": 92,
+                "name": "Hemodialysis"
+            },
+            {
+                "id": 93,
+                "name": "Renal biopsy"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 11,
+        "name": "NEUROLOGY",
+        "procedure": [
+            {
+                "id": 80,
+                "name": "Lumbar puncture"
+            },
+            {
+                "id": 81,
+                "name": "Electroencephalograph (EEG)"
+            },
+            {
+                "id": 82,
+                "name": "Electromyelograph (EMG)"
+            },
+            {
+                "id": 83,
+                "name": "Tilt table testing"
+            },
+            {
+                "id": 84,
+                "name": "Deep brain stimulation"
+            },
+            {
+                "id": 85,
+                "name": "Botox injection"
+            },
+            {
+                "id": 86,
+                "name": "Nerve conduction velocity (NCV)"
+            },
+            {
+                "id": 87,
+                "name": "Polysomnography"
+            },
+            {
+                "id": 88,
+                "name": "Somatosensory evoked potentials (SSEP)"
+            },
+            {
+                "id": 89,
+                "name": "Nerve biopsy"
+            },
+            {
+                "id": 90,
+                "name": "Muscle biopsy"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 21,
+        "name": "NEUROSURGERY",
+        "procedure": [
+            {
+                "id": 89,
+                "name": "Nerve biopsy"
+            },
+            {
+                "id": 156,
+                "name": "Craniotomy and hematoma evacuation"
+            },
+            {
+                "id": 157,
+                "name": "Surgery for brain tumor – supratentorial"
+            },
+            {
+                "id": 158,
+                "name": "Ventriculoatrial/ventriculoperitoneal shunt"
+            },
+            {
+                "id": 159,
+                "name": "Corpus callosotomy for epilepsy"
+            },
+            {
+                "id": 160,
+                "name": "Surgery for spinal cord tumor"
+            },
+            {
+                "id": 161,
+                "name": "Surgery for brainstem tumor"
+            },
+            {
+                "id": 162,
+                "name": "Hemispherotomy for epilepsy"
+            },
+            {
+                "id": 163,
+                "name": "Deep brain stimulation – one electrode"
+            },
+            {
+                "id": 164,
+                "name": "Deep brain stimulation – two electrodes"
+            },
+            {
+                "id": 165,
+                "name": "Cervical disc arthroplasty"
+            },
+            {
+                "id": 166,
+                "name": "Lumbar disc arthroplasty"
+            },
+            {
+                "id": 167,
+                "name": "Lumbar diskectomy"
+            },
+            {
+                "id": 168,
+                "name": "Surgery for spina bifida"
+            },
+            {
+                "id": 169,
+                "name": "Laminectomy"
+            },
+            {
+                "id": 170,
+                "name": "CV junction fusion procedure"
+            },
+            {
+                "id": 171,
+                "name": "Meningomyelocele repair"
+            },
+            {
+                "id": 172,
+                "name": "CSF rhinorrhea repair"
+            },
+            {
+                "id": 173,
+                "name": "Vascular malformations"
+            },
+            {
+                "id": 174,
+                "name": "Carpal tunnel release/median nerve decompression"
+            },
+            {
+                "id": 175,
+                "name": "Peripheral nerve surgery"
+            },
+            {
+                "id": 176,
+                "name": "Brain biopsy"
+            },
+            {
+                "id": 177,
+                "name": "Clipping of intracranial aneurysm"
+            },
+            {
+                "id": 178,
+                "name": "Surgery for intracranial AV malformation"
+            },
+            {
+                "id": 179,
+                "name": "Foramen magnum decompression (for chiari malformation)"
+            },
+            {
+                "id": 180,
+                "name": "Trigeminal nerve decompression"
+            },
+            {
+                "id": 181,
+                "name": "Vagal stimulation"
+            },
+            {
+                "id": 182,
+                "name": "Kyphoplasty"
+            },
+            {
+                "id": 183,
+                "name": "Carotid artery endarterectomy"
+            },
+            {
+                "id": 184,
+                "name": "Carotid artery stenting"
+            },
+            {
+                "id": 185,
+                "name": "Embolization"
+            },
+            {
+                "id": 186,
+                "name": "Surgery for brain tumor – infratentorial"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 32,
+        "name": "OBSTETRICS AND GYNECOLOGY",
+        "procedure": [
+            {
+                "id": 401,
+                "name": "Abdominal delivery"
+            },
+            {
+                "id": 402,
+                "name": "Forceps delivery"
+            },
+            {
+                "id": 403,
+                "name": "Caesarean section"
+            },
+            {
+                "id": 404,
+                "name": "Abdominal hysterecytomy"
+            },
+            {
+                "id": 405,
+                "name": "Caesarean hysterectomy"
+            },
+            {
+                "id": 406,
+                "name": "Vaginal hysterectomy"
+            },
+            {
+                "id": 407,
+                "name": "Manual removal of placenta"
+            },
+            {
+                "id": 408,
+                "name": "Salpingo-oophorectomy"
+            },
+            {
+                "id": 409,
+                "name": "Ovarian cystectomy"
+            },
+            {
+                "id": 410,
+                "name": "Amniocentesis"
+            },
+            {
+                "id": 411,
+                "name": "Cordocentesis/Fetal blood sampling/Umbilical vein sampling"
+            },
+            {
+                "id": 412,
+                "name": "Cervical cap"
+            },
+            {
+                "id": 413,
+                "name": "Cervical circlage"
+            },
+            {
+                "id": 414,
+                "name": "Cervical conization"
+            },
+            {
+                "id": 415,
+                "name": "Diagnostic curettage"
+            },
+            {
+                "id": 416,
+                "name": "Vesico-vaginal fistula repair"
+            },
+            {
+                "id": 417,
+                "name": "Colposcopy"
+            },
+            {
+                "id": 418,
+                "name": "Chorionic villus sampling"
+            },
+            {
+                "id": 419,
+                "name": "Contraceptive implants"
+            },
+            {
+                "id": 420,
+                "name": "Copper IUD"
+            },
+            {
+                "id": 421,
+                "name": "Hormonal IUD"
+            },
+            {
+                "id": 422,
+                "name": "Depo-provera"
+            },
+            {
+                "id": 423,
+                "name": "In-vitro fertilization"
+            },
+            {
+                "id": 424,
+                "name": "Endometrial ablation"
+            },
+            {
+                "id": 425,
+                "name": "Fetal Doppler/Umbilical Doppler/Uterine vessel Doppler"
+            },
+            {
+                "id": 426,
+                "name": "Staging laparotomy for ca ovary"
+            },
+            {
+                "id": 427,
+                "name": "Stress incontinence treatment"
+            },
+            {
+                "id": 428,
+                "name": "Hysteroscopy"
+            },
+            {
+                "id": 429,
+                "name": "Transvaginal sonography"
+            },
+            {
+                "id": 430,
+                "name": "Uterine fibroid surgery"
+            },
+            {
+                "id": 431,
+                "name": "Medical abortion/Medical termination of pregnancy"
+            },
+            {
+                "id": 432,
+                "name": "Intra-uterine insemination"
+            },
+            {
+                "id": 433,
+                "name": "Vaginal ring"
+            },
+            {
+                "id": 434,
+                "name": "Pap smear"
+            },
+            {
+                "id": 435,
+                "name": "Tubal ligation/Sterilization"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 14,
+        "name": "ONCOMEDICINE",
+        "procedure": [
+            {
+                "id": 94,
+                "name": "Chemotherapy"
+            },
+            {
+                "id": 95,
+                "name": "Bone marrow (stem cell) transplantation – Autologous"
+            },
+            {
+                "id": 96,
+                "name": "Bone marrow (stem cell) transplantation - Allogenic"
+            },
+            {
+                "id": 97,
+                "name": "Bone marrow aspiration/biopsy"
+            },
+            {
+                "id": 98,
+                "name": "Lumbar puncture"
+            },
+            {
+                "id": 99,
+                "name": "Hormonal therapy"
+            },
+            {
+                "id": 100,
+                "name": "Targeted therapy"
+            },
+            {
+                "id": 101,
+                "name": "Immunotherapy"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 27,
+        "name": "ONCOSURGERY",
+        "procedure": [
+            {
+                "id": 36,
+                "name": "Modified radical mastectomy"
+            },
+            {
+                "id": 38,
+                "name": "Trucut biopsy"
+            },
+            {
+                "id": 144,
+                "name": "Colostomy"
+            },
+            {
+                "id": 149,
+                "name": "Liver transplantation"
+            },
+            {
+                "id": 151,
+                "name": "Whipple’s surgery"
+            },
+            {
+                "id": 154,
+                "name": "Low anterior resection of rectum"
+            },
+            {
+                "id": 155,
+                "name": "Abdominoperineal resection of rectum"
+            },
+            {
+                "id": 300,
+                "name": "Chemoembolization/radioembolization"
+            },
+            {
+                "id": 301,
+                "name": "Excision biopsy"
+            },
+            {
+                "id": 302,
+                "name": "Lumpectomy (breast conservation surgery)"
+            },
+            {
+                "id": 303,
+                "name": "Esophagectomy (for cancer)"
+            },
+            {
+                "id": 304,
+                "name": "Gastrectomy (for cancer)"
+            },
+            {
+                "id": 305,
+                "name": "Partial hepatic/liver resection"
+            },
+            {
+                "id": 306,
+                "name": "Right/left hemicolectomy (for cancer)"
+            },
+            {
+                "id": 307,
+                "name": "Minimally invasive surgery/laproscopic surgery"
+            },
+            {
+                "id": 308,
+                "name": "Partial thyroidectomy (for cancer)"
+            },
+            {
+                "id": 309,
+                "name": "Total thyroidectomy (for cancer)"
+            },
+            {
+                "id": 310,
+                "name": "Lung resection (for cancer)"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 29,
+        "name": "OPHTHALMOLOGY",
+        "procedure": [
+            {
+                "id": 331,
+                "name": "Dacrocystorhinostomy"
+            },
+            {
+                "id": 350,
+                "name": "Corneal transplantation"
+            },
+            {
+                "id": 351,
+                "name": "Cataract surgery with IOL implantation"
+            },
+            {
+                "id": 352,
+                "name": "Cosmetic eyelid surgery/Blepharoplasty"
+            },
+            {
+                "id": 353,
+                "name": "Laser vision correction/LASIK"
+            },
+            {
+                "id": 354,
+                "name": "Vitreoretinal surgery"
+            },
+            {
+                "id": 355,
+                "name": "Ocular plastic surgery"
+            },
+            {
+                "id": 356,
+                "name": "Laser photocoagulation"
+            },
+            {
+                "id": 357,
+                "name": "Pterygium surgery"
+            },
+            {
+                "id": 358,
+                "name": "Conjunctival wound repair"
+            },
+            {
+                "id": 359,
+                "name": "Removal of corneal foreign body"
+            },
+            {
+                "id": 360,
+                "name": "Corneal grafting"
+            },
+            {
+                "id": 361,
+                "name": "Dacrocystectomy"
+            },
+            {
+                "id": 362,
+                "name": "Refraction testing"
+            },
+            {
+                "id": 363,
+                "name": "Lacrimal sac probing and syringing"
+            },
+            {
+                "id": 364,
+                "name": "Penetrating keratoplasty"
+            },
+            {
+                "id": 365,
+                "name": "Keratoconus correction"
+            },
+            {
+                "id": 366,
+                "name": "Squint correction"
+            },
+            {
+                "id": 367,
+                "name": "Retinal detachment surgery"
+            },
+            {
+                "id": 368,
+                "name": "Enucleation"
+            },
+            {
+                "id": 369,
+                "name": "Evisceration"
+            },
+            {
+                "id": 370,
+                "name": "Tarsorrhaphy"
+            },
+            {
+                "id": 371,
+                "name": "Ectropion surgery"
+            },
+            {
+                "id": 372,
+                "name": "Enteropion surgery"
+            },
+            {
+                "id": 373,
+                "name": "Chalazion incision and drainage"
+            },
+            {
+                "id": 374,
+                "name": "Glaucoma surgery"
+            },
+            {
+                "id": 375,
+                "name": "Goniotomy"
+            },
+            {
+                "id": 376,
+                "name": "YAG laser iridotomy"
+            },
+            {
+                "id": 377,
+                "name": "YAG laser capsulotomy"
+            },
+            {
+                "id": 378,
+                "name": "Argon laser trabaculoplasty"
+            },
+            {
+                "id": 379,
+                "name": "Intravitreal injections"
+            },
+            {
+                "id": 380,
+                "name": "Botox for squint/blepharospasm"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 33,
+        "name": "ORTHOPEDICS",
+        "procedure": [
+            {
+                "id": 169,
+                "name": "Laminectomy"
+            },
+            {
+                "id": 436,
+                "name": "Arthroplasty/Total hip replacement (Unilateral)"
+            },
+            {
+                "id": 437,
+                "name": "Arthroplasty/Total hip replacement (Bilateral)"
+            },
+            {
+                "id": 438,
+                "name": "Arthroplasty/Total knee replacement (Unilateral)"
+            },
+            {
+                "id": 439,
+                "name": "Arthroplasty/Total knee replacement (Bilateral)"
+            },
+            {
+                "id": 440,
+                "name": "Arthroplasty/Elbow replacement"
+            },
+            {
+                "id": 441,
+                "name": "Arthroplasty/Shoulder replacement"
+            },
+            {
+                "id": 442,
+                "name": "Vertebroplasty"
+            },
+            {
+                "id": 443,
+                "name": "Diskectomy"
+            },
+            {
+                "id": 445,
+                "name": "Fracture treatment"
+            },
+            {
+                "id": 446,
+                "name": "Dislocation treatment"
+            },
+            {
+                "id": 447,
+                "name": "Arthroscopy"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 25,
+        "name": "PEDIATRIC SURGERY",
+        "procedure": [
+            {
+                "id": 144,
+                "name": "Colostomy"
+            },
+            {
+                "id": 262,
+                "name": "Diaphragmatic hernia repair (pediatric)"
+            },
+            {
+                "id": 263,
+                "name": "Tracheo-esophageal fistula correction (pediatric)"
+            },
+            {
+                "id": 264,
+                "name": "Meckel’s diverticulectomy"
+            },
+            {
+                "id": 265,
+                "name": "Omphalocele hernia repair (pediatric)"
+            },
+            {
+                "id": 266,
+                "name": "Surgery for congenital hydrocele"
+            },
+            {
+                "id": 267,
+                "name": "Surgery for tortion of testis"
+            },
+            {
+                "id": 268,
+                "name": "Congenital pyloric stenosis surgery"
+            },
+            {
+                "id": 269,
+                "name": "Duodenal atresia surgery"
+            },
+            {
+                "id": 270,
+                "name": "Pancreatic ring operation"
+            },
+            {
+                "id": 271,
+                "name": "Meconium ileus operation"
+            },
+            {
+                "id": 272,
+                "name": "Imperforate anus"
+            },
+            {
+                "id": 273,
+                "name": "Intussusception"
+            },
+            {
+                "id": 274,
+                "name": "Malrotation/volvulus of gut"
+            },
+            {
+                "id": 275,
+                "name": "Nephrectomy"
+            },
+            {
+                "id": 276,
+                "name": "Neuroblastoma excision"
+            },
+            {
+                "id": 277,
+                "name": "Rhbdomyosarcoma excision"
+            },
+            {
+                "id": 278,
+                "name": "Sacro-coccygeal teratoma excision"
+            },
+            {
+                "id": 279,
+                "name": "Surgery of Hurshprng’s disease"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 38,
+        "name": "PEDIATRICS",
+        "procedure": [
+            {
+                "id": 59,
+                "name": "Pericardial Aspiration/Pericardiocentesis"
+            },
+            {
+                "id": 64,
+                "name": "Colonoscopy"
+            },
+            {
+                "id": 80,
+                "name": "Lumbar puncture"
+            },
+            {
+                "id": 92,
+                "name": "Hemodialysis"
+            },
+            {
+                "id": 97,
+                "name": "Bone marrow aspiration/biopsy"
+            },
+            {
+                "id": 114,
+                "name": "Intercostal drainage/Pleural fuid aspiration/Thoracentesis"
+            },
+            {
+                "id": 129,
+                "name": "Upper GI endoscopy"
+            },
+            {
+                "id": 297,
+                "name": "Bronchoscopy"
+            },
+            {
+                "id": 477,
+                "name": "Internal jugular and subclavian catheterization"
+            },
+            {
+                "id": 478,
+                "name": "Venous cutdown"
+            },
+            {
+                "id": 479,
+                "name": "Exchange transfusion of newborn"
+            },
+            {
+                "id": 480,
+                "name": "Percutaneous kidney biopsy"
+            },
+            {
+                "id": 481,
+                "name": "Electroencephalography (EEG)"
+            },
+            {
+                "id": 482,
+                "name": "Nasogastric tube insertion"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 18,
+        "name": "PHYSICAL MEDICINE AND REHABILITATION",
+        "procedure": [
+            {
+                "id": 118,
+                "name": "Chronic pain therapy"
+            },
+            {
+                "id": 119,
+                "name": "Neuromuscular rehabilitation"
+            },
+            {
+                "id": 120,
+                "name": "Paediatric rehabilitation"
+            },
+            {
+                "id": 121,
+                "name": "Cancer rehabilitation"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 24,
+        "name": "PLASTIC SURGERY",
+        "procedure": [
+            {
+                "id": 243,
+                "name": "Breast reduction"
+            },
+            {
+                "id": 244,
+                "name": "Breast augmentation"
+            },
+            {
+                "id": 245,
+                "name": "Breast lift (mastopexy)"
+            },
+            {
+                "id": 246,
+                "name": "Facelift (rhitectomy)"
+            },
+            {
+                "id": 247,
+                "name": "Nose job"
+            },
+            {
+                "id": 248,
+                "name": "Eyelid surgery (blepharoplasty)"
+            },
+            {
+                "id": 249,
+                "name": "Nasal reshaping (rhinoplasty)"
+            },
+            {
+                "id": 250,
+                "name": "Chin augmentation"
+            },
+            {
+                "id": 251,
+                "name": "Tummy tuck/Abdominoplasty"
+            },
+            {
+                "id": 252,
+                "name": "Body contouring/Liposuction"
+            },
+            {
+                "id": 253,
+                "name": "Scar revision"
+            },
+            {
+                "id": 254,
+                "name": "Botox injection"
+            },
+            {
+                "id": 255,
+                "name": "Cleft lip repair"
+            },
+            {
+                "id": 256,
+                "name": "Cleft palate repair"
+            },
+            {
+                "id": 257,
+                "name": "Plastic surgery of nose – major"
+            },
+            {
+                "id": 258,
+                "name": "Plastic surgery of nose – minor"
+            },
+            {
+                "id": 259,
+                "name": "Plastic surgery of ear – major"
+            },
+            {
+                "id": 260,
+                "name": "Plastic surgery of ear – minor"
+            },
+            {
+                "id": 261,
+                "name": "Dermabrasion"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 17,
+        "name": "ANAESTHESIOLOGY/PAIN MANGEMENT",
+        "procedure": [
+            {
+                "id": 116,
+                "name": "Pain clinic"
+            },
+            {
+                "id": 117,
+                "name": "General anaesthesia"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 34,
+        "name": "PSYCHIATRY",
+        "procedure": [
+            {
+                "id": 448,
+                "name": "Individual counselling"
+            },
+            {
+                "id": 449,
+                "name": "Couple/partner counselling"
+            },
+            {
+                "id": 450,
+                "name": "Cognitive behavioural therapy"
+            },
+            {
+                "id": 451,
+                "name": "Electroconvulsive therapy"
+            },
+            {
+                "id": 452,
+                "name": "Sleep study (polysomnography)"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 16,
+        "name": "PULMONARY MEDICINE/PULMONOLOGY",
+        "procedure": [
+            {
+                "id": 26,
+                "name": "Chest tube insertion"
+            },
+            {
+                "id": 108,
+                "name": "Brochial thermoplasty (for severe asthma)"
+            },
+            {
+                "id": 109,
+                "name": "Bronchoscopy with/without biopsy/stenting/ballooning"
+            },
+            {
+                "id": 110,
+                "name": "Rigid bronchoscopy"
+            },
+            {
+                "id": 111,
+                "name": "Bronchoalveolar lavage"
+            },
+            {
+                "id": 112,
+                "name": "Pleurodesis"
+            },
+            {
+                "id": 113,
+                "name": "Pulmonary function testing/Spirometry"
+            },
+            {
+                "id": 114,
+                "name": "Intercostal drainage/Pleural fuid aspiration/Thoracentesis"
+            },
+            {
+                "id": 115,
+                "name": "Endobronchial ultrasound"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 30,
+        "name": "RADIATION ONCOLOGY",
+        "procedure": [
+            {
+                "id": 381,
+                "name": "3D conformal radiotherapy"
+            },
+            {
+                "id": 382,
+                "name": "Intensity modulated radiotherapy"
+            },
+            {
+                "id": 383,
+                "name": "External beam radiotherapy"
+            },
+            {
+                "id": 384,
+                "name": "Stereotactic radiotherapy"
+            },
+            {
+                "id": 385,
+                "name": "Image guided radiotherapy"
+            },
+            {
+                "id": 386,
+                "name": "Intracavitory brachytherapy"
+            },
+            {
+                "id": 387,
+                "name": "Interstitial brachytherapy"
+            },
+            {
+                "id": 388,
+                "name": "Intraluminal brachytherapy"
+            },
+            {
+                "id": 389,
+                "name": "Holmium laser prostate surgery"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 19,
+        "name": "RHEUMATOLOGY",
+        "procedure": [
+            {
+                "id": 122,
+                "name": "Joint fluid aspiration"
+            },
+            {
+                "id": 123,
+                "name": "Intra-articular injection"
+            },
+            {
+                "id": 124,
+                "name": "Synovial biopsy"
+            },
+            {
+                "id": 125,
+                "name": "Immunomolator/immunosuppressive therapy"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 35,
+        "name": "TRANSFUSION MEDICINE",
+        "procedure": [
+            {
+                "id": 103,
+                "name": "Phlebotomy"
+            },
+            {
+                "id": 105,
+                "name": "Plasma exchange"
+            },
+            {
+                "id": 106,
+                "name": "Plateletpharesis"
+            },
+            {
+                "id": 107,
+                "name": "Leukapharesis"
+            },
+            {
+                "id": 453,
+                "name": "Blood transfusion"
+            },
+            {
+                "id": 454,
+                "name": "Platelet transfusion"
+            },
+            {
+                "id": 455,
+                "name": "Fresh frozen plasma transfusion"
+            },
+            {
+                "id": 456,
+                "name": "Cryoprecipitate transfusion"
+            },
+            {
+                "id": 457,
+                "name": "Plasmapheresis/apheresis"
+            }
+        ],
+        "special_interest": []
+    },
+    {
+        "id": 23,
+        "name": "UROLOGY",
+        "procedure": [
+            {
+                "id": 195,
+                "name": "Circumcision and frenulotomy"
+            },
+            {
+                "id": 196,
+                "name": "Genital reconstruction"
+            },
+            {
+                "id": 197,
+                "name": "Infertility"
+            },
+            {
+                "id": 198,
+                "name": "Extracorporeal shock-wave lithotripsy (ESWL)"
+            },
+            {
+                "id": 199,
+                "name": "Kidney biopsy"
+            },
+            {
+                "id": 200,
+                "name": "Cystoscopy with/without biopsy"
+            },
+            {
+                "id": 201,
+                "name": "Cystectomy"
+            },
+            {
+                "id": 202,
+                "name": "Partial Nephrectomy – open"
+            },
+            {
+                "id": 203,
+                "name": "Partial nephrectomy – Laproscopic/endoscopic"
+            },
+            {
+                "id": 204,
+                "name": "Nephrectomy – open"
+            },
+            {
+                "id": 205,
+                "name": "Nephrectomy – laproscopic/endoscopic"
+            },
+            {
+                "id": 206,
+                "name": "Radical nephrectomy - open"
+            },
+            {
+                "id": 207,
+                "name": "Radical nephrectomy – Laproscopic/endoscopic"
+            },
+            {
+                "id": 208,
+                "name": "Nephrolithotomy – laproscopic/endoscopic"
+            },
+            {
+                "id": 209,
+                "name": "Pyelolithotomy – open"
+            },
+            {
+                "id": 210,
+                "name": "Pyelolithotomy- laproscopic/endoscopic"
+            },
+            {
+                "id": 211,
+                "name": "Surgery for hydronephrosis (pyeloplasty/endopyelotomy)"
+            },
+            {
+                "id": 212,
+                "name": "Uretrolithotomy – open"
+            },
+            {
+                "id": 213,
+                "name": "Urethrolithotomy – laproscopic/endoscopic"
+            },
+            {
+                "id": 214,
+                "name": "Nephroureterectomy – open"
+            },
+            {
+                "id": 215,
+                "name": "Nephroureterectomy – laproscopic/endoscopic"
+            },
+            {
+                "id": 216,
+                "name": "Surgery for vesico-ureteric reflux"
+            },
+            {
+                "id": 217,
+                "name": "Percutaneous nephrolithotomy (PCNL) – unilateral"
+            },
+            {
+                "id": 218,
+                "name": "Percutaneous nephrolithotomy (PCNL) – bilateral"
+            },
+            {
+                "id": 219,
+                "name": "Radical cystectomy"
+            },
+            {
+                "id": 220,
+                "name": "Orchidopexy – open"
+            },
+            {
+                "id": 221,
+                "name": "Orchidopexy – laproscopic/endoscopic"
+            },
+            {
+                "id": 222,
+                "name": "Urethral stricture dilatation"
+            },
+            {
+                "id": 223,
+                "name": "Surgery for exotrophy of bladder"
+            },
+            {
+                "id": 224,
+                "name": "Ureterocoel repair"
+            },
+            {
+                "id": 225,
+                "name": "Surgery for urinary incontinence"
+            },
+            {
+                "id": 226,
+                "name": "Paraphimosis reduction"
+            },
+            {
+                "id": 227,
+                "name": "Surgery for hypospadias"
+            },
+            {
+                "id": 228,
+                "name": "Surgery for epispadias"
+            },
+            {
+                "id": 229,
+                "name": "Surgery for hydrocele"
+            },
+            {
+                "id": 230,
+                "name": "Surgery for varicocele"
+            },
+            {
+                "id": 231,
+                "name": "Orchidectomy"
+            },
+            {
+                "id": 232,
+                "name": "Orchidectomy/retroperitoneal lymph node dissection"
+            },
+            {
+                "id": 233,
+                "name": "Amputation of penis"
+            },
+            {
+                "id": 234,
+                "name": "Prostate biopsy"
+            },
+            {
+                "id": 235,
+                "name": "Radical prostatectomy – open"
+            },
+            {
+                "id": 236,
+                "name": "Radical prostatectomy – laproscopic"
+            },
+            {
+                "id": 237,
+                "name": "Holmium YAG prostate surgery"
+            },
+            {
+                "id": 238,
+                "name": "Holmium YAG stone lithotripsy"
+            },
+            {
+                "id": 239,
+                "name": "Transurethral resection of prostate"
+            },
+            {
+                "id": 240,
+                "name": "Vasectomy"
+            },
+            {
+                "id": 241,
+                "name": "Transurethral needle aspiration"
+            },
+            {
+                "id": 242,
+                "name": "Kidney transplantation"
+            }
+        ],
+        "special_interest": []
+    }
+]

@@ -6,5 +6,6 @@ angular
   .module('symptum')
   .constant('API', {
       SEARCH : ELASTIC + '/_search',
-      SPECIALITIES : BASE + VERSION + '/specialities'
+      SPECIALITIES : BASE + VERSION + '/specialities',
+      SPECIALITIES_JSON : './assets/data/specialities/specialities.json' 
   })
