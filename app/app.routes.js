@@ -30,7 +30,7 @@
         }
       })
       .state('search', {
-        url: '/search?:q=',
+        url: '/search?:type=&:q=',
         parent: 'base',
         views: {
           "content": {

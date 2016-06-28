@@ -14,7 +14,7 @@
 		<div ng-repeat="item in vm.specialities | limitTo: 8  "
 			 class="col-lg-4 col-md-4 col-sm-6 speciality-card">
 
-			<a ui-sref="search({q:item.name})">
+			<a ui-sref="search({type:'HOSPITAL', q:item.name})">
 				<speciality-card data="item"></specialities-card>
 			</a>
 
