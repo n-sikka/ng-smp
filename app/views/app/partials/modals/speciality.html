@@ -1,5 +1,5 @@
 <div class="speciality-modal text-center">
-  
+
   <div class="modal-header">
       <h3 class="modal-title">
         Medical Specialities
@@ -10,17 +10,19 @@
 
   <div class="modal-body">
     <div class="row">
-    
-      <div  ng-repeat="item in vm.data"
+
+      <div ng-repeat="item in vm.data"
             class="col-lg-4 col-md-4 col-sm-6 speciality-card">
-        
-        <speciality-card  data="item"></specialities-card>
-      
+
+        <a ui-sref="search({q:item.name})" ng-click="vm.close()">
+          <speciality-card  data="item"></specialities-card>
+        </a>
+
       </div>
     </div>
   </div>
 
-</div>  
+</div>
 
 <script type="text/javascript">
   if ($('body').hasClass('modal-open')) {

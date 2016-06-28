@@ -9,7 +9,7 @@
     var vm = this;
 
 		vm.getSpec = function(){
-			SpecialitiesService.get()
+			SpecialitiesService.getJSON()
 			.then(function success(response){
 				vm.specialities = response.data;
       },
