@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://n_sikka@bitbucket.org/symptum/symptum-app.git"
+    "url": "https://gitlab.com/symptum/symptum-app"
   },
   "description": "symptum main app",
   "main": "server.js",
