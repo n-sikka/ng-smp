@@ -12,3 +12,4 @@ assets/css
 dist/
 index.html
 *.orig
+*.log
