@@ -4,8 +4,12 @@
   Enterprise application of Symptum.com
   This contains the front end of the main web application       
   [Test Server](penny.symptum.com) here.        
-  [Wiki](https://gitlab.com/symptum/symptum-app/wikis/home)
-  
+  [Wiki Home](https://gitlab.com/symptum/symptum-app/wikis/home)
+  - [How to](https://gitlab.com/symptum/symptum-app/wikis/how-to-setup-environment)
+  - [Setup](https://gitlab.com/symptum/symptum-app/wikis/localhost-setup)
+  - [Developing](https://gitlab.com/symptum/symptum-app/wikis/start-work)
+  - [To Do](https://gitlab.com/symptum/symptum-app/wikis/to-do)
+
 
 ##### TECHNOLOGIES USED
 
