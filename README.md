@@ -3,7 +3,7 @@
 ##  SYMPTUM FRONT-END
   Enterprise application of Symptum.com
   This contains the front end of the main web application       
-  [Test Server](penny.symptum.com) live now! 
+  [Test Server](penny.symptum.com) here 
 
 ##### TECHNOLOGIES USED
 
