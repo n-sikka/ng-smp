@@ -4,11 +4,12 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     sassLint = require('gulp-sass-lint'),
     sourcemaps = require('gulp-sourcemaps');
+    uglifycss = require('gulp-uglifycss');
 
 
 
 gulp.task('compile-change:scss', function() {
-  gulp.watch('assets/sass/**/*.scss', ['sass:dev']);
+  gulp.watch('assets/sass/**/*.scss', ['sass:dev', 'check:sass']);
 });
 
 // to check sass for any wrong coding conventions
@@ -16,7 +17,15 @@ gulp.task('check:sass', function(){
   return gulp.src(['assets/sass/**/*.scss'])
   .pipe(sassLint(
     {
-      'endless' : true
+      rules: {
+        "single-line-per-selector" : 0,
+        "indentation": 0,
+        "clean-import-paths" : 0,
+        "leading-zero": 0,
+        "no-trailing-zero": 0,
+        "no-color-literals": 0,
+        "nesting-depth": 3
+      }
     }
   ))
   .pipe(sassLint.format())
@@ -25,11 +34,23 @@ gulp.task('check:sass', function(){
 // compile sass for production
 gulp.task('sass', function() {
   return gulp.src(['assets/sass/**/*.scss'])
+  .pipe(sassLint(
+    {
+      rules: {
+        "single-line-per-selector" : 0,
+        "indentation": 0,
+        "clean-import-paths" : 0,
+        "leading-zero": 0
+      }
+    }
+  ))
+  .pipe(sassLint.format())
   .pipe(sourcemaps.init())
   .pipe(concat('index.scss'))
   .pipe(sass().on('error', function(){
     gutil.log(gutil.colors.bgBlue.red('ERROR : SCSS COMPILATION FAILED'));
   }))
+  .pipe(uglifycss())
   .pipe(sourcemaps.write('sourcemaps'))
   .pipe(gulp.dest('dist/css'))
 });

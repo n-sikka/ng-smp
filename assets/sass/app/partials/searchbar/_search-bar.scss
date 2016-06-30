@@ -1,0 +1,142 @@
+.search-bar {
+	position: relative;
+
+	.search-bar-input {
+		@include padding(24px, 24px, 32px, 32px);
+		background-color: #fff;
+		border: 1px solid #eee;
+		box-shadow: 1.638px 1.147px 8px 0 rgba(235, 101, 108, 0.2);
+		left: 0;
+		margin-top: 34px;
+		position: relative;
+		top: 0;
+		width: 100%;
+
+
+		input {
+			border: 0;
+			color: $theme-grey;
+			font-size: 19px;
+			width: 81%;
+		}
+
+		.search-icon {
+			color: $theme-grey;
+			float: left;
+			font-size: 24px;
+			padding-right: 16px;
+		}
+
+		.search-loader-icon {
+			color: #eee;
+			float: right;
+			font-size: 24px;
+
+			&.fa-spin {
+				color: #34bb9b;
+			}
+		}
+	}
+
+	.search-typeahead-container {
+		@include padding(12px, 32px, 24px, 24px);
+		background-color: #fff;
+		border: 1px solid #a8a8a8;
+		box-shadow: 1.638px 1.147px 8px 0 rgba(235, 101, 108, 0.2);
+		display: block;
+		left: 0;
+		margin-top: 12px;
+		position: absolute;
+		width: 100%;
+		z-index: 500;
+
+		.list-header {
+			@include padding(15px, 24px, inherit, inherit);
+
+			.list-title {
+				color: $theme-grey;
+				font-size: 14px;
+			}
+
+		}
+
+		.list-item {
+			@include padding(inherit, 24px, inherit, inherit);
+
+			.item-img {
+				padding-top: 9px;
+
+				.list-item-img {
+					@include padding(1rem, 1rem, 1.5rem, 1.5rem);
+					background-color: #efefef;
+					color: #767676;
+					font-size: 16px;
+					height: 32px;
+					margin-right: 16px;
+					max-width: 32px;
+					text-transform: uppercase;
+				}
+			}
+
+			.item-details {
+				.item-name {
+					color: #767676;
+					font-size: 17px;
+					font-weight: 500;
+				}
+
+				.item-meta {
+					color: #a8a8a8;
+					font-size: 12px;
+					font-weight: 400;
+				}
+			}
+
+		}
+
+		.typeahead-seperator {
+			border-top: 1px solid lighten(#a8a8a8 , 25%);
+			margin-top: 12px;
+		}
+
+		.typeahead-footer {
+
+			.typeahead-search-more {
+				@include padding(12px, inherit, inherit, inherit);
+				cursor: pointer;
+
+				&:nth-child(1) {
+					border-top: 1px solid lighten(#a8a8a8 , 25%);
+					margin-top: 12px;
+				}
+
+				.search-icon {
+					color: #a8a8a8;
+					margin-right: 12px;
+				}
+
+
+				.message {
+					color: #a8a8a8;
+					font-size: 17px;
+					font-weight: 400;
+
+					b {
+						color: #727272;
+						font-weight: 500;
+					}
+				}
+
+				.message-count {
+					color: #212121;
+					font-size: 14px;
+					font-weight: 400;
+				}
+
+			}
+
+		}
+
+	}
+
+}

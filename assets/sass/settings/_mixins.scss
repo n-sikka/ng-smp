@@ -1,0 +1,103 @@
+// Stye Mixins (Padding, Margin, Border)
+
+// Use these to give comprehensive border, padding, or margin to any class.
+// You will have to send all the params here or it wont work.
+
+// By standard, the params are TOP, DOWN, LEFT, RIGHT
+
+
+@mixin add-border($top, $bottom, $left, $right, $color) {
+	border-bottom: $bottom solid $color;
+	border-left: $left solid $color;
+	border-right: $right solid $color;
+	border-top: $top solid $color;
+}
+
+@mixin padding($top, $down, $left, $right) {
+	padding-bottom: $down;
+	padding-left: $left;
+	padding-right: $right;
+	padding-top: $top;
+}
+
+@mixin margin($top, $down, $left, $right) {
+	margin-bottom: $down;
+	margin-left: $left;
+	margin-right: $right;
+	margin-top: $top;
+}
+
+
+// Bootstrap Button Style Mixin
+
+// Use this to create any button of any color you need.
+// it will create hover, active and focus effects too along with it.
+
+// This is used by bootstrap and is extracted from it.
+
+@mixin btn-styles($btn-color) {
+
+  background-color: $btn-color;
+  color: #fff;
+
+  &:hover,
+  &:focus  {
+		background-color: darken($btn-color, 12%);
+		background-position: 0 -15px;
+		color: #fff;
+    outline: none !important;
+  }
+
+  &:active,
+  &.active {
+    background-color: darken($btn-color, 12%);
+		border-color: darken($btn-color, 14%);
+    color: #fff;
+		outline: none !important;
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: darken($btn-color, 12%);
+      background-image: none;
+    }
+  }
+}
+
+
+//MEDIA QUERY Mixin
+
+//Use it inside the class.
+// @include for-screen(mobile) { .. }
+// @include for-screen(tab) { .. }
+// @include for-screen(tab-up) { .. }
+// @include for-screen(desktop) { .. }
+
+@mixin for-screen($breakpoint) {
+  @if $breakpoint == 'mobile' {
+    @media (max-width: 420px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == 'tab' {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $breakpoint == 'tab-up' {
+    @media (min-width: 992px) {
+      @content;
+    }
+  } @else if $breakpoint == 'desktop' {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}

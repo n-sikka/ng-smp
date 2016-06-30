@@ -4,7 +4,7 @@
   angular
     .module('symptum', [
         'ui.router',
-        'ui.bootstrap',
+        'ui.bootstrap'
     ]);
 
 })();

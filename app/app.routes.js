@@ -18,10 +18,27 @@
         url: '',
         templateUrl: 'app/views/base.html'
       })
-      .state('/home', {
+      .state('home', {
         url: '/home',
         parent: 'base',
-        templateUrl: _dirPath + 'pages/home/home.html'
+        views: {
+          "content": {
+            templateUrl: _dirPath + 'pages/home/home.html',
+            controller:'HomeController',
+            controllerAs:'vm'
+          }
+        }
+      })
+      .state('search', {
+        url: '/search?:type=&:q=',
+        parent: 'base',
+        views: {
+          "content": {
+            templateUrl: _dirPath + 'listings/search/search.html',
+            controller:'SearchController',
+            controllerAs:'vm'
+          }
+        }
       });
 
   }

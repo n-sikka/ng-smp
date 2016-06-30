@@ -1,0 +1,48 @@
+//Reuseable utility classes
+
+.page-padding {
+  padding-left: 238px;
+  padding-right: 238px;
+}
+
+.column-center {
+	float: none;
+	margin: 0 auto;
+}
+
+.slide-container {
+  margin-bottom: 64px;
+  margin-top: 64px;
+}
+
+.slide-title {
+    color: $theme-grey;
+    margin-bottom: 64px;
+}
+
+.primary-divider {
+	color: $primary-color;
+
+  &._path2 {
+    margin-left: -2px;
+  }
+}
+
+.primary-tag {
+  @include padding(0.5rem, 0.5rem, 1rem, 1rem);
+  background-color: #eee;
+  border-radius: 3rem;
+  color: #767676;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  transition: 0.2s ease;
+  width: 108px;
+
+  &:hover,
+  &:focus  {
+    background-color: darken(#eee, 7.5%);
+    color: darken(#767676, 10%);
+    transition: 0.2s ease;
+  }
+}
