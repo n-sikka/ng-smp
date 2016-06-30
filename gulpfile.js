@@ -8,13 +8,13 @@ fs.readdirSync(__dirname + '/gulp').forEach(function(task) {
 })
 
 // build assets for development environment
-gulp.task('build:dev', ['script:dev', 'inject', 'sass:dev']);
+gulp.task('build:dev', ['script:dev', 'sass:dev', 'inject']);
 
 // enable watch for scripts and styles and create js and style in dist/
 gulp.task('watch', ['watch:script', 'watch:style']);
 
 // build assets for production
-gulp.task('build:prod', ['inject', 'sass', 'script']);
+gulp.task('build:prod', ['sass', 'script', 'inject']);
 
 // run localhost for development
 gulp.task('serve', ['connect', 'inject', 'watch']);
