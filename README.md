@@ -21,3 +21,8 @@
 - NPM
 - Bower
 - LiveReload
+
+
+# To-Do
+- Enable Gzip compression of all assets. (js/css vendors)
+- Leverage browser caching
