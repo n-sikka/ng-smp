@@ -14,7 +14,7 @@ gulp.task('build:dev', ['script:dev', 'inject', 'sass:dev']);
 gulp.task('watch', ['watch:script', 'watch:style']);
 
 // build assets for production
-gulp.task('build:prod', ['sass', 'script']);
+gulp.task('build:prod', ['inject', 'sass', 'script']);
 
 // run localhost for development
 gulp.task('serve', ['connect', 'inject', 'watch']);
