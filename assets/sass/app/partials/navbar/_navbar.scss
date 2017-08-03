@@ -1,0 +1,32 @@
+.navbar-container {
+	padding-bottom: 64px;
+	padding-left: 100px;
+	padding-top: 40px;
+
+	@media only screen and (max-width: 767px) {
+		padding-left: 0;
+ 		padding-right: 0;
+	}
+
+	.brand {
+	    color: $secondary-color;
+	    font-size: 24px;
+	    font-weight: bold;
+	    text-decoration: none;
+
+	    &:hover {
+	    	color: $secondary-color;
+	    }
+	  }
+
+	.navbar-links {
+		color: #767676;
+		font-size: 19px;
+		text-decoration: none;
+
+			&:hover,
+			&:focus {
+				background-color: transparent;
+			}
+	}
+}

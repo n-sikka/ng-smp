@@ -1,0 +1,35 @@
+{
+  "name": "symptum-app",
+  "description": "symptum main app",
+  "main": "server.js",
+  "authors": [
+    "symptum"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "symptum"
+  ],
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "ngprogress": "^1.1.3",
+    "angular-cookies": "~1.4.2",
+    "angular-sanitize": "^1.5.7",
+    "angular-messages": "~1.4.2",
+    "angular-bootstrap": "^1.3.3",
+    "bootstrap-sass": "^3.3.6",
+    "moment": "~2.10.6",
+    "animate.css": "~3.4.0"
+  },
+  "resolutions": {
+    "angular": "1.5.7",
+    "angular-sanitize": "^1.5.7"
+  }
+}

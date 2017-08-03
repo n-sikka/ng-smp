@@ -1,0 +1,55 @@
+.footer {
+	background-color: #484848;
+	border-radius: 0;
+	color: #fff;
+	margin-top: 128px;
+	position: static;
+
+	.footer-container {
+		padding-bottom: 64px-36px;
+		padding-top: 48px;
+
+			.footer-padding-details {
+				padding-bottom: 36px;
+
+				i {
+					color: $secondary-color;
+					font-size: 24px;
+					padding-right: 48px;
+				}
+
+				h6 {
+					color: $theme-grey;
+					font-size: 10px;
+					padding-bottom: 16px;
+				}
+
+				p {
+					font-size: 17px;
+				}
+			}
+
+			.footer-padding-links {
+				padding-bottom: 24px;
+
+				a {
+					color: #fff;
+					font-size: 17px;
+				}
+			}
+
+		.footer-sitemap {
+
+			.footer-padding-links {
+				padding-bottom: 24px;
+
+				a {
+					color: #fff;
+					font-size: 17px;
+				}
+			}
+
+		}
+
+	}
+}
